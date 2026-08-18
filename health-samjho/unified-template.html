@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health Samjho — Medicine, Tests, Diseases & Nutrition</title>
+<meta name="description" content="Understand your medicines, blood reports, diseases and nutrition in simple English & Hindi. Reviewed by a Registered Pharmacist.">
+<meta name="robots" content="index, follow">
+<style>
+  :root{
+    --blue:#0e7490; --blue-dark:#155e75; --teal:#14b8a6;
+    --bg:#f8fafc; --card:#ffffff; --border:#e2e8f0;
+    --txt:#0f172a; --muted:#64748b; --soft:#f1f5f9;
+    --green:#16a34a; --green-bg:#f0fdf4;
+    --yellow:#ca8a04; --yellow-bg:#fefce8;
+    --red:#dc2626; --red-bg:#fef2f2;
+    --pink:#db2777; --pink-bg:#fdf2f8;
+    --shadow:0 1px 3px rgba(15,23,42,.08), 0 8px 24px rgba(15,23,42,.06);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--txt); line-height:1.6; -webkit-font-smoothing:antialiased;}
+  .trustbar{background:var(--blue-dark); color:#e0f2fe; font-size:13px; text-align:center; padding:7px 14px;}
+  .trustbar b{color:#fff;}
+  header{background:#fff; border-bottom:1px solid var(--border); position:sticky; top:0; z-index:50;}
+  .nav{max-width:1080px; margin:0 auto; padding:12px 16px; display:flex; align-items:center; gap:12px;}
+  .logo{display:flex; align-items:center; gap:9px; font-weight:800; font-size:18px; color:var(--blue-dark); cursor:pointer;}
+  .logo .mark{width:32px; height:32px; border-radius:9px; background:linear-gradient(135deg,var(--teal),var(--blue)); display:flex; align-items:center; justify-content:center; color:#fff; font-size:17px;}
+
+  .tabs{display:flex; gap:4px; background:var(--soft); border:1px solid var(--border); border-radius:12px; padding:4px; max-width:1080px; margin:14px auto 0; overflow-x:auto;}
+  .tab{flex:1; min-width:110px; text-align:center; padding:10px 12px; border-radius:9px; font-weight:700; font-size:14px; color:var(--muted); cursor:pointer; white-space:nowrap;}
+  .tab.active{background:#fff; color:var(--blue-dark); box-shadow:var(--shadow);}
+
+  main{max-width:1080px; margin:0 auto; padding:0 16px 60px;}
+  .hero{text-align:center; padding:28px 0 16px;}
+  .hero h1{font-size:clamp(22px,4.5vw,32px); line-height:1.2; font-weight:800; letter-spacing:-.5px;}
+  .hero h1 span{color:var(--blue);}
+  .hero p{color:var(--muted); margin-top:8px; font-size:15px;}
+
+  .searchwrap{max-width:620px; margin:18px auto 6px; position:relative;}
+  .searchbox{width:100%; padding:14px 16px 14px 44px; font-size:15px; border-radius:12px; border:2px solid var(--border); background:#fff; color:var(--txt); outline:none; box-shadow:var(--shadow);}
+  .searchbox:focus{border-color:var(--blue);}
+  .searchwrap .ic{position:absolute; left:15px; top:50%; transform:translateY(-50%); font-size:17px; color:var(--muted);}
+
+  .grid{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:18px;}
+  @media(max-width:680px){.grid{grid-template-columns:repeat(2,1fr);}}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:13px; padding:14px; cursor:pointer; transition:border .2s, box-shadow .2s;}
+  .card:hover{border-color:var(--blue); box-shadow:var(--shadow);}
+  .card .nm{font-weight:700; font-size:13.5px;}
+  .card .sl{color:var(--blue); font-size:11.5px; font-weight:600; margin-top:2px;}
+  .card .mt{font-size:11px; color:var(--muted); margin-top:5px;}
+  .pill{display:inline-block; font-size:10px; padding:2px 8px; border-radius:6px; font-weight:700;}
+  .pill.green{background:var(--green-bg); color:var(--green);}
+  .pill.blue{background:#e0f2fe; color:var(--blue-dark);}
+  .pill.pink{background:var(--pink-bg); color:var(--pink);}
+
+  .detail{display:none;}
+  .back{display:inline-flex; align-items:center; gap:6px; color:var(--blue); font-weight:600; font-size:14px; margin:16px 0 10px; cursor:pointer;}
+  .dhead{background:var(--card); border:1px solid var(--border); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+  .dhead .title{font-size:24px; font-weight:800;}
+  .dhead .sub{color:var(--blue); font-weight:700; font-size:14px; margin-top:3px;}
+  .dhead .badges{margin-top:10px; display:flex; flex-wrap:wrap; gap:8px;}
+  .badge{display:inline-flex; align-items:center; gap:5px; padding:4px 12px; border-radius:999px; font-size:12px; font-weight:700;}
+  .badge.verified{background:var(--green-bg); color:var(--green);}
+  .badge.combo{background:var(--pink-bg); color:var(--pink);}
+
+  .scard{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px; margin-top:12px;}
+  .scard h3{font-size:13px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); margin-bottom:9px; font-weight:700;}
+  .scard ul{padding-left:20px;}
+  .scard li{margin-bottom:5px; font-size:14px;}
+  .hi{display:block; color:var(--muted); font-size:13px; margin-top:2px;}
+
+  .brands{display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:8px;}
+  .brand{background:var(--soft); border:1px solid var(--border); border-radius:10px; padding:9px 12px;}
+  .brand b{display:block; font-size:13px;}
+  .brand span{font-size:11px; color:var(--muted);}
+
+  .intable{width:100%; border-collapse:collapse; font-size:13px;}
+  .intable th{background:var(--soft); text-align:left; padding:8px 9px; color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:.4px;}
+  .intable td{padding:8px 9px; border-bottom:1px solid var(--border); vertical-align:top;}
+  .intable tr:last-child td{border-bottom:none;}
+  .sev{display:inline-block; padding:2px 8px; border-radius:6px; font-size:10.5px; font-weight:700;}
+  .sev.major{background:var(--red-bg); color:var(--red);}
+  .sev.moderate{background:var(--yellow-bg); color:var(--yellow);}
+  .sev.minor{background:var(--soft); color:var(--muted);}
+
+  .warn{background:var(--red-bg); border:1px solid #fecaca; border-radius:10px; padding:11px 13px; margin-bottom:7px; font-size:13.5px; color:#7f1d1d;}
+  .missed{background:#fef9c3; border:1px solid #fde047; border-radius:10px; padding:12px 14px; font-size:13.5px;}
+  .missed b{color:#854d0e;}
+
+  .popgrid{display:grid; grid-template-columns:repeat(3,1fr); gap:8px;}
+  @media(max-width:680px){.popgrid{grid-template-columns:repeat(2,1fr);}}
+  .pop{background:var(--soft); border:1px solid var(--border); border-radius:10px; padding:11px 12px;}
+  .pop b{display:block; font-size:12.5px; margin-bottom:2px; color:var(--blue-dark);}
+  .pop span{font-size:12px;}
+
+  .related{display:flex; flex-wrap:wrap; gap:7px;}
+  .relchip{background:var(--soft); border:1px solid var(--border); border-radius:9px; padding:8px 12px; font-size:12.5px;}
+  .relchip b{display:block; color:var(--blue-dark);}
+  .relchip span{font-size:11px; color:var(--muted);}
+
+  .src{background:var(--soft); border-radius:10px; padding:12px 14px; font-size:12.5px; color:var(--muted);}
+  .src b{color:var(--txt);}
+  .disclaimer{font-size:11.5px; color:var(--muted); border:1px dashed var(--border); border-radius:10px; padding:12px 14px; margin-top:12px; line-height:1.6;}
+  .notfound{text-align:center; padding:40px 16px; color:var(--muted);}
+  .notfound .big{font-size:45px;}
+
+  .nutrow{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:8px;}
+  @media(max-width:680px){.nutrow{grid-template-columns:repeat(2,1fr);}}
+  .nut{background:var(--soft); border:1px solid var(--border); border-radius:9px; padding:9px 11px; text-align:center;}
+  .nut b{display:block; font-size:14px; color:var(--blue-dark);}
+  .nut span{font-size:11px; color:var(--muted);}
+</style>
+</head>
+<body>
+
+<div class="trustbar">💊🧪 Content reviewed by a <b>Registered Pharmacist</b> · For education only — not medical advice</div>
+
+<header>
+  <nav class="nav">
+    <div class="logo" onclick="goHome()"><span class="mark">✚</span> Health Samjho</div>
+  </nav>
+</header>
+
+<div class="tabs" id="tabs">
+  <div class="tab active" data-tab="medicine" onclick="switchTab('medicine')">💊 Medicine</div>
+  <div class="tab" data-tab="tests" onclick="switchTab('tests')">🧪 Tests</div>
+  <div class="tab" data-tab="diseases" onclick="switchTab('diseases')">🦠 Diseases</div>
+  <div class="tab" data-tab="nutrition" onclick="switchTab('nutrition')">🥗 Nutrition</div>
+</div>
+
+<main>
+  <div id="home">
+    <div class="hero">
+      <h1>Samjho <span id="heroSpan">medicine</span> in simple words</h1>
+      <p id="heroP">Brand, salt, dose, side effects — English aur Hindi mein.</p>
+      <div class="searchwrap">
+        <span class="ic">🔍</span>
+        <input class="searchbox" id="search" type="text" placeholder="Search..." oninput="renderList()">
+      </div>
+    </div>
+    <div class="grid" id="list"></div>
+  </div>
+  <div class="detail" id="detail"></div>
+</main>
+
+<script>
+const DATA = {
+  medicine: __MED__,
+  tests: __TESTS__,
+  diseases: __DIS__,
+  nutrition: __NUT__
+};
+let tab = 'medicine';
+let currentSlug = null;
+
+const TABINFO = {
+  medicine: { span: 'medicine', p: 'Brand, salt, dose, side effects — English aur Hindi mein.', ph: 'Search medicine... e.g. Dolo, paracetamol, amlodipine' },
+  tests: { span: 'blood report', p: 'Apni test value daalo aur jano high, low ya normal.', ph: 'Search test... e.g. Hb, TSH, triglyceride' },
+  diseases: { span: 'disease', p: 'Bimari ke lakshan, karan aur bachav.', ph: 'Search disease... e.g. diabetes, dengue' },
+  nutrition: { span: 'food', p: 'Indian foods ke nutrients aur fayde.', ph: 'Search food... e.g. palak, oats' }
+};
+
+function switchTab(t){
+  tab = t;
+  document.querySelectorAll('.tab').forEach(el => el.classList.toggle('active', el.dataset.tab === t));
+  document.getElementById('heroSpan').textContent = TABINFO[t].span;
+  document.getElementById('heroP').textContent = TABINFO[t].p;
+  document.getElementById('search').placeholder = TABINFO[t].ph;
+  document.getElementById('search').value = '';
+  goHome();
+  renderList();
+}
+
+function listBi(arr){ if(!arr || !arr.en || !arr.en.length) return '<span style="color:var(--muted);font-size:13px;">Not Available</span>'; return '<ul>'+arr.en.map((en,i)=>{const hi=(arr.hi&&arr.hi[i])?'<span class="hi">'+arr.hi[i]+'</span>':'';return '<li>'+en+hi+'</li>';}).join('')+'</ul>'; }
+function pairsList(arr){ if(!arr || !arr.length) return '<span style="color:var(--muted);font-size:13px;">Not Available</span>'; return '<ul>'+arr.map(s=>{const hi=s.hi?'<span class="hi">'+s.hi+'</span>':'';return '<li>'+s.en+hi+'</li>';}).join('')+'</ul>'; }
+function textBi(obj){ if(!obj || !obj.en) return '<span style="color:var(--muted);font-size:13px;">Not Available</span>'; const hi=obj.hi?'<span class="hi" style="display:block;margin-top:6px;">'+obj.hi+'</span>':''; return obj.en+hi; }
+
+function renderList(){
+  const q = (document.getElementById('search').value||'').toLowerCase().trim();
+  const list = document.getElementById('list');
+  const data = DATA[tab];
+  let filtered = data;
+  if(q){
+    filtered = data.filter(d => {
+      const name = d.name || d.generic_name || '';
+      const brands = (d.brands||[]).map(b=>b.name).join(' ');
+      const cat = d.category || d.primaryUse || '';
+      const hindi = d.hindi || '';
+      return (name + ' ' + brands + ' ' + cat + ' ' + hindi + ' ' + d.slug).toLowerCase().includes(q);
+    });
+  }
+  if(!filtered.length){ list.innerHTML = '<div class="notfound" style="grid-column:1/-1"><div class="big">🔍</div><p>Kuch nahi mila.</p></div>'; return; }
+
+  list.innerHTML = filtered.map(d => {
+    let name = d.name || d.generic_name || '';
+    let sub = '';
+    let pill = '';
+    if(tab === 'medicine'){
+      sub = d.brands && d.brands[0] ? d.brands[0].name : '';
+      pill = d.isCombination ? '<span class="pill pink">COMBO</span> ' : '';
+      pill += d.primaryUse ? '<span class="pill blue">'+d.primaryUse+'</span>' : '';
+    } else if(tab === 'tests'){
+      sub = d.category + ' · ' + d.unit;
+    } else if(tab === 'diseases'){
+      name = d.name + ' <span style="font-size:11px;color:var(--muted)">('+d.hindi+')</span>';
+      sub = d.category;
+    } else {
+      name = d.name + ' <span style="font-size:11px;color:var(--muted)">('+d.hindi+')</span>';
+      sub = d.category;
+    }
+    return '<div class="card" onclick="openDetail(\''+d.slug+'\')"><div class="nm">'+name+'</div><div class="sl">'+sub+'</div><div class="mt">'+pill+'</div></div>';
+  }).join('');
+}
+
+function openDetail(slug){
+  const d = DATA[tab].find(x => x.slug === slug);
+  if(!d) return;
+  currentSlug = slug;
+  document.getElementById('home').style.display = 'none';
+  const det = document.getElementById('detail');
+  det.style.display = 'block';
+  det.innerHTML = renderDetail(d);
+  window.scrollTo(0,0);
+}
+
+function renderDetail(d){
+  const back = '<div class="back" onclick="goHome()">← Back</div>';
+  const head = '<div class="dhead"><div class="title">'+(d.generic_name||d.name)+'</div><div class="sub">'+(d.category||d.primaryUse||'')+(d.hindi?' · '+d.hindi:'')+'</div><div class="badges"><span class="badge verified">✅ Reviewed by Pharmacist</span>'+(d.isCombination?'<span class="badge combo">🔗 Combination</span>':'')+'</div></div>';
+  const disc = '<div class="disclaimer">⚠️ <b>Disclaimer:</b> This information is for education only. It is not medical advice, diagnosis or a prescription. Always consult your doctor or a qualified healthcare professional.</div>';
+
+  if(tab === 'medicine'){
+    const brands = '<div class="scard"><h3>💊 Brands (same salt)</h3><div class="brands">'+(d.brands||[]).map(b=>'<div class="brand"><b>'+b.name+'</b><span>'+b.strength+' · '+b.form+' · '+b.manufacturer+'</span></div>').join('')+'</div></div>';
+    const dose = '<div class="scard"><h3>💊 Dosage (doctor ki salah se)</h3><table class="intable"><tr><th>Who</th><th>Dose</th><th>How often</th><th>Max</th></tr>'+d.dosage.map(ds=>'<tr><td>'+ds.population+'</td><td><b>'+ds.dose+'</b></td><td>'+ds.frequency+'</td><td>'+ds.maximum+'</td></tr>').join('')+'</table></div>';
+    const ae = '<div class="scard"><h3>🚨 Serious adverse effects</h3>'+d.adverseSerious.map(s=>'<div class="warn">'+(s.emergency?'<b>🚨 Emergency:</b> ':'<b>Serious:</b> ')+s.en+(s.hi?'<span class="hi">'+s.hi+'</span>':'')+'</div>').join('')+'</div>';
+    const inter = '<div class="scard"><h3>🔄 Drug interactions</h3><table class="intable"><tr><th>Medicine</th><th>Why it matters</th><th>Severity</th></tr>'+d.drugInteractions.map(di=>'<tr><td><b>'+di.drug+'</b></td><td>'+di.effect+'</td><td><span class="sev '+di.severity.toLowerCase()+'">'+di.severity+'</span></td></tr>').join('')+'</table></div>';
+    const p = d.specialPopulations||{};
+    const pop = '<div class="scard"><h3>👥 Special populations</h3><div class="popgrid"><div class="pop"><b>🤰 Pregnancy</b><span>'+textBi(p.pregnancy)+'</span></div><div class="pop"><b>🤱 Breastfeeding</b><span>'+textBi(p.breastfeeding)+'</span></div><div class="pop"><b>👶 Children</b><span>'+textBi(p.children)+'</span></div><div class="pop"><b>👴 Older adults</b><span>'+textBi(p.elderly)+'</span></div><div class="pop"><b>🫘 Kidney</b><span>'+textBi(p.renal)+'</span></div><div class="pop"><b>🫁 Liver</b><span>'+textBi(p.hepatic)+'</span></div></div></div>';
+    const rel = '<div class="scard"><h3>🔗 Related medicines (same class)</h3><div class="related">'+((d.relatedMedicines||[]).map(r=>'<div class="relchip"><b>'+r.name+'</b><span>'+r.note+'</span></div>').join('')||'<span style="color:var(--muted)">Not Available</span>')+'</div></div>';
+    const src = '<div class="scard"><h3>📚 Source</h3><div class="src"><b>Source:</b> '+d.source+'<br><b>Status:</b> ✅ Reviewed by Pharmacist</div></div>';
+    return back + head + brands +
+      '<div class="scard"><h3>🎯 Uses</h3>'+listBi(d.uses)+'</div>' +
+      '<div class="scard"><h3>⚙️ How it works</h3><p style="font-size:14px;">'+textBi(d.howItWorks)+'</p></div>' +
+      '<div class="scard"><h3>💊 How to take</h3>'+listBi(d.howToTake)+'</div>' +
+      dose +
+      '<div class="scard"><h3>⏰ Missed dose</h3><div class="missed"><b>Forgot a dose?</b> '+d.missedDose.en+'<span class="hi">'+d.missedDose.hi+'</span></div></div>' +
+      '<div class="scard"><h3>⚠️ Common side effects</h3>'+pairsList(d.sideEffectsCommon)+'</div>' +
+      ae +
+      '<div class="scard"><h3>🛑 Warnings</h3>'+listBi(d.warnings)+'</div>' +
+      '<div class="scard"><h3>🚫 Contraindications (kaun na le)</h3>'+listBi(d.contraindications)+'</div>' +
+      inter +
+      '<div class="scard"><h3>🍽️ Food interactions</h3>'+listBi(d.foodInteractions)+'</div>' +
+      '<div class="scard"><h3>📊 What may be monitored</h3>'+listBi(d.monitoring)+'</div>' +
+      pop +
+      '<div class="scard"><h3>📞 When to contact your doctor</h3>'+listBi(d.whenToContactDoctor)+'</div>' +
+      rel +
+      '<div class="scard"><h3>📦 Storage</h3><p style="font-size:13.5px;">'+d.storage+'</p></div>' +
+      src + disc;
+  }
+
+  if(tab === 'tests'){
+    const ri = d.referenceInterval||{};
+    const keys = [['male','Male'],['female','Female'],['child','Child'],['general','General'],['desirable','Desirable'],['normal','Normal'],['optimal','Optimal'],['borderline','Borderline'],['high','High'],['deficient','Deficient'],['insufficient','Insufficient'],['sufficient','Sufficient'],['prediabetes','Prediabetes'],['diabetes','Diabetes'],['low_risk','Low risk'],['high_risk','High risk'],['mild_decrease','Mild decrease'],['moderate','Moderate'],['severe','Severe']];
+    const riRows = keys.filter(k=>ri[k[0]]).map(k=>'<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border);font-size:13.5px;"><span style="color:var(--muted)">'+k[1]+'</span><b>'+ri[k[0]]+'</b></div>').join('');
+    const inter = d.interpretation;
+    const related = '<div class="scard"><h3>🔎 Related tests</h3><div class="related">'+((d.relatedTests||[]).map(r=>'<span class="relchip">'+r+'</span>').join(''))+'</div></div>';
+    const q = '<div class="scard"><h3>👨‍⚕️ Questions to ask your doctor</h3><ul>'+((d.questionsForDoctor||[]).map(x=>'<li>'+x+'</li>').join(''))+'</ul><p style="font-size:12px;color:var(--muted);margin-top:6px;">(Ye sawaal hain — diagnosis nahi.)</p></div>';
+    return back + head +
+      '<div class="scard"><h3>🧪 What is it?</h3><p style="font-size:14px;">'+textBi(d.whatIsIt)+'</p></div>' +
+      '<div class="scard"><h3>🎯 Why is it tested?</h3><ul>'+((d.whyTested||[]).map(w=>'<li>'+w+'</li>').join(''))+'</ul></div>' +
+      '<div class="scard"><h3>📏 Reference interval</h3>'+riRows+(ri.caveat?'<p class="hi">'+ri.caveat+'</p>':'')+'</div>' +
+      '<div class="scard"><h3>🔴 Low — kya matlab?</h3><p style="font-size:13.5px;">'+inter.low.en+'<span class="hi">'+inter.low.hi+'</span></p></div>' +
+      '<div class="scard"><h3>🟢 Within range</h3><p style="font-size:13.5px;">'+inter.within.en+'<span class="hi">'+inter.within.hi+'</span></p></div>' +
+      '<div class="scard"><h3>🔴 High — kya matlab?</h3><p style="font-size:13.5px;">'+inter.high.en+'<span class="hi">'+inter.high.hi+'</span></p></div>' +
+      related + q +
+      '<div class="scard"><h3>📚 Source</h3><div class="src"><b>'+d.source+'</b> · Reviewed by Pharmacist</div></div>' + disc;
+  }
+
+  if(tab === 'diseases'){
+    const sec = (title, arr) => arr && arr.length ? '<div class="scard"><h3>'+title+'</h3><ul>'+arr.map(x=>'<li>'+x+'</li>').join('')+'</ul></div>' : '';
+    const relmed = '<div class="scard"><h3>💊 Related medicines</h3><div class="related">'+((d.relatedMedicines||[]).map(r=>'<span class="relchip">'+r+'</span>').join('')||'<span style="color:var(--muted)">Not Available</span>')+'</div></div>';
+    const reltest = '<div class="scard"><h3>🧪 Common tests</h3><div class="related">'+((d.tests||[]).map(r=>'<span class="relchip">'+r+'</span>').join(''))+'</div></div>';
+    return back + head +
+      '<div class="scard"><h3>🦠 What is it?</h3><p style="font-size:14px;">'+textBi(d.whatIsIt)+'</p></div>' +
+      sec('🔬 Causes (kyun hoti hai)', d.causes) +
+      sec('⚠️ Risk factors', d.riskFactors) +
+      sec('🩺 Symptoms (lakshan)', d.symptoms) +
+      '<div class="scard"><h3>🚨 Warning signs</h3><ul>'+(d.warningSigns||[]).map(x=>'<li><b>'+x+'</b></li>').join('')+'</ul></div>' +
+      '<div class="scard"><h3>🔍 How doctors diagnose it</h3><p style="font-size:13.5px;">'+d.diagnosis+'</p></div>' +
+      reltest +
+      '<div class="scard"><h3>💊 Treatment overview</h3><p style="font-size:13.5px;">'+d.treatmentOverview+'</p></div>' +
+      sec('🥗 Lifestyle considerations', d.lifestyle) +
+      sec('🛡️ Prevention', d.prevention) +
+      relmed +
+      '<div class="scard"><h3>🚨 When to seek urgent medical attention</h3><div class="warn">'+d.whenUrgent+'</div></div>' +
+      '<div class="scard"><h3>👨‍⚕️ Questions to ask your doctor</h3><ul>'+(d.questionsForDoctor||[]).map(x=>'<li>'+x+'</li>').join('')+'</ul></div>' +
+      '<div class="scard"><h3>📚 Source</h3><div class="src"><b>'+d.source+'</b> · Reviewed by Pharmacist</div></div>' + disc;
+  }
+
+  // nutrition
+  const nutKeys = [['calories','Calories'],['protein','Protein (g)'],['carbs','Carbs (g)'],['fat','Fat (g)'],['fiber','Fiber (g)'],['iron','Iron (mg)'],['calcium','Calcium (mg)'],['vitamin_c','Vitamin C (mg)'],['vitamin_a','Vitamin A (µg)'],['folate','Folate (µg)'],['vitamin_b12','Vitamin B12 (µg)'],['vitamin_d','Vitamin D (µg)'],['potassium','Potassium (mg)'],['magnesium','Magnesium (mg)'],['vitamin_e','Vitamin E (mg)'],['omega3','Omega-3 (g)']];
+  const nutGrid = '<div class="scard"><h3>🥗 Nutrients (per 100g)</h3><div class="nutrow">'+nutKeys.filter(k=>d.per100g[k[0]]!==undefined).map(k=>'<div class="nut"><b>'+d.per100g[k[0]]+'</b><span>'+k[1]+'</span></div>').join('')+'</div></div>';
+  const rich = '<div class="scard"><h3>⭐ Rich in</h3><div class="related">'+(d.richIn||[]).map(r=>'<span class="relchip">'+r+'</span>').join('')+'</div></div>';
+  const good = '<div class="scard"><h3>💪 Good for</h3><ul>'+(d.goodFor||[]).map(r=>'<li>'+r+'</li>').join('')+'</ul></div>';
+  return back + head + nutGrid + rich + good +
+    '<div class="scard"><h3>📚 Source</h3><div class="src"><b>'+d.source+'</b> · Standard nutrition reference</div></div>' + disc;
+}
+
+function goHome(){
+  document.getElementById('home').style.display = 'block';
+  document.getElementById('detail').style.display = 'none';
+  currentSlug = null;
+  window.scrollTo(0,0);
+}
+
+switchTab('medicine');
+</script>
+</body>
+</html>

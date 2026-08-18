@@ -1,0 +1,3010 @@
+[
+  {
+    "slug": "diabetes",
+    "name": "Diabetes Mellitus",
+    "hindi": "डायबिटीज (शुगर)",
+    "category": "Metabolic",
+    "whatIsIt": {
+      "en": "A condition where blood sugar stays too high because the body cannot use insulin properly.",
+      "hi": "ऐसी स्थिति जिसमें खून में शुगर ज़्यादा रहती है क्योंकि शरीर इंसुलिन का सही इस्तेमाल नहीं कर पाता।"
+    },
+    "causes": [
+      "Type 1: body attacks insulin-making cells",
+      "Type 2: insulin resistance + lifestyle",
+      "Family history",
+      "Pancreas problems"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Obesity",
+      "Sedentary lifestyle",
+      "Age 45+",
+      "High BP / cholesterol",
+      "PCOS in women"
+    ],
+    "symptoms": [
+      "Zyada pyaas (excess thirst)",
+      "Bar-bar peshab",
+      "Thakaan",
+      "Weight loss",
+      "Blurred vision",
+      "Slow wound healing"
+    ],
+    "warningSigns": [
+      "Very high sugar with vomiting",
+      "Confusion / unconsciousness",
+      "Fruity-smelling breath"
+    ],
+    "diagnosis": "Blood tests — Fasting glucose, PP glucose, and HbA1c.",
+    "tests": [
+      "Fasting Glucose",
+      "PP Sugar",
+      "HbA1c"
+    ],
+    "treatmentOverview": "Lifestyle changes (diet, exercise) + medicines (Metformin etc.) and/or insulin, as prescribed by doctor.",
+    "lifestyle": [
+      "Balanced diet with less sugar",
+      "Regular exercise (30 min/day)",
+      "Weight management",
+      "Regular sugar monitoring"
+    ],
+    "prevention": [
+      "Healthy weight",
+      "Active lifestyle",
+      "Less processed sugar",
+      "Regular checkups if at risk"
+    ],
+    "relatedMedicines": [
+      "Metformin",
+      "Glimepiride",
+      "Sitagliptin"
+    ],
+    "whenUrgent": "Confusion, vomiting, very high sugar readings, or unconsciousness — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "मेरी diabetes किस type की है?",
+      "मेरा sugar target क्या होना चाहिए?",
+      "कितनी बार जांच करानी होगी?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "hypertension",
+    "name": "Hypertension (High Blood Pressure)",
+    "hindi": "हाई ब्लड प्रेशर (उच्च रक्तचाप)",
+    "category": "Cardiovascular",
+    "whatIsIt": {
+      "en": "Blood pressure stays higher than normal, putting strain on the heart and blood vessels.",
+      "hi": "ब्लड प्रेशर सामान्य से ज़्यादा रहता है, जिससे दिल और रक्त वाहिकाओं पर दबाव पड़ता है।"
+    },
+    "causes": [
+      "Mostly no single cause (essential hypertension)",
+      "Kidney disease",
+      "Hormonal problems",
+      "Certain medicines"
+    ],
+    "riskFactors": [
+      "Age",
+      "Family history",
+      "High salt intake",
+      "Obesity",
+      "Stress",
+      "Alcohol",
+      "Smoking"
+    ],
+    "symptoms": [
+      "Often no symptoms",
+      "Headache",
+      "Dizziness",
+      "Nosebleeds (rare)"
+    ],
+    "warningSigns": [
+      "Severe headache + chest pain",
+      "Breathlessness",
+      "Vision problems",
+      "Numbness/weakness"
+    ],
+    "diagnosis": "Repeated BP readings over time; home monitoring.",
+    "tests": [
+      "Blood Pressure (clinical)",
+      "Lipid Profile",
+      "Creatinine"
+    ],
+    "treatmentOverview": "Lifestyle changes + BP medicines (Amlodipine, Losartan, Telmisartan etc.) as prescribed.",
+    "lifestyle": [
+      "Less salt (namak kam)",
+      "Regular exercise",
+      "Weight loss",
+      "Less alcohol",
+      "Stress management"
+    ],
+    "prevention": [
+      "Healthy diet (less salt)",
+      "Active lifestyle",
+      "Regular BP checkups",
+      "Avoid smoking"
+    ],
+    "relatedMedicines": [
+      "Amlodipine",
+      "Losartan",
+      "Telmisartan"
+    ],
+    "whenUrgent": "Very high BP with chest pain, breathlessness, or weakness — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "मेरा BP target क्या है?",
+      "कितनी बार check करूँ?",
+      "नमक कितना कम करूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "hypothyroidism",
+    "name": "Hypothyroidism (Underactive Thyroid)",
+    "hindi": "थायरॉइड कम सक्रिय (हाइपोथायरॉइडिज्म)",
+    "category": "Endocrine",
+    "whatIsIt": {
+      "en": "The thyroid gland does not make enough thyroid hormone, slowing the body's metabolism.",
+      "hi": "थायरॉइड ग्रंथि पर्याप्त थायरॉइड हार्मोन नहीं बनाती, जिससे शरीर की चयापचय गति धीमी हो जाती है।"
+    },
+    "causes": [
+      "Autoimmune (Hashimoto's thyroiditis)",
+      "Iodine deficiency",
+      "Thyroid surgery/radiation",
+      "Certain medicines"
+    ],
+    "riskFactors": [
+      "Female",
+      "Age 60+",
+      "Family history",
+      "Other autoimmune conditions",
+      "Pregnancy"
+    ],
+    "symptoms": [
+      "Thakaan",
+      "Weight gain",
+      "Thand lagना",
+      "Dry skin & hair",
+      "Constipation",
+      "Depression"
+    ],
+    "warningSigns": [
+      "Severe fatigue + confusion",
+      "Extreme cold intolerance"
+    ],
+    "diagnosis": "Blood test — TSH (high) and Free T4 (low).",
+    "tests": [
+      "TSH",
+      "Free T4"
+    ],
+    "treatmentOverview": "Daily thyroid hormone replacement (Levothyroxine) as prescribed, with regular TSH monitoring.",
+    "lifestyle": [
+      "Take medicine regularly on empty stomach",
+      "Regular checkups",
+      "Balanced diet with iodine"
+    ],
+    "prevention": [
+      "Adequate iodine intake",
+      "Regular checkups if family history or symptoms"
+    ],
+    "relatedMedicines": [
+      "Levothyroxine"
+    ],
+    "whenUrgent": "Severe fatigue, confusion, or extreme cold intolerance — seek medical attention.",
+    "questionsForDoctor": [
+      "मेरी dose सही है?",
+      "कितनी बार TSH check कराना होगा?",
+      "खानपान में क्या ध्यान दूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "anemia",
+    "name": "Anemia (Iron Deficiency)",
+    "hindi": "खून की कमी (एनीमिया)",
+    "category": "Blood",
+    "whatIsIt": {
+      "en": "Low hemoglobin in blood, often from iron deficiency, causing reduced oxygen delivery.",
+      "hi": "खून में hemoglobin कम, अक्सर आयरन की कमी से, जिससे ऑक्सीजन पहुंचाना कम होता है।"
+    },
+    "causes": [
+      "Iron deficiency",
+      "Blood loss (periods, bleeding)",
+      "Poor diet",
+      "Pregnancy",
+      "B12/folate deficiency"
+    ],
+    "riskFactors": [
+      "Women (menstruation)",
+      "Pregnancy",
+      "Vegetarian diet (low iron)",
+      "Children",
+      "Chronic illness"
+    ],
+    "symptoms": [
+      "Thakaan",
+      "Pale skin",
+      "Chakkar",
+      "Saans phoolना",
+      "Weakness"
+    ],
+    "warningSigns": [
+      "Severe breathlessness",
+      "Chest pain",
+      "Fainting"
+    ],
+    "diagnosis": "Blood test — Hemoglobin, Ferritin, MCV, iron studies.",
+    "tests": [
+      "Hemoglobin",
+      "Ferritin",
+      "Serum Iron",
+      "MCV"
+    ],
+    "treatmentOverview": "Iron supplements + diet rich in iron; treat underlying cause as advised by doctor.",
+    "lifestyle": [
+      "Iron-rich foods (spinach, lentils)",
+      "Vitamin C with meals",
+      "Avoid tea/coffee with iron"
+    ],
+    "prevention": [
+      "Iron-rich diet",
+      "Regular checkups if at risk",
+      "Treat bleeding causes"
+    ],
+    "relatedMedicines": [
+      "Iron Supplement",
+      "Vitamin B12"
+    ],
+    "whenUrgent": "Severe breathlessness, chest pain, or fainting — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "anemia किस type की है?",
+      "iron supplement कितने समय तक?",
+      "diet में क्या add करूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "asthma",
+    "name": "Asthma",
+    "hindi": "दमा (अस्थमा)",
+    "category": "Respiratory",
+    "whatIsIt": {
+      "en": "A lung condition where airways swell and narrow, making breathing difficult.",
+      "hi": "फेफड़ों की स्थिति जिसमें श्वास नलियाँ सूजकर संकरी हो जाती हैं, जिससे सांस लेना मुश्किल होता है।"
+    },
+    "causes": [
+      "Allergens (dust, pollen)",
+      "Air pollution",
+      "Respiratory infections",
+      "Exercise",
+      "Genetic tendency"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Allergies",
+      "Smoking exposure",
+      "Obesity"
+    ],
+    "symptoms": [
+      "Wheezing",
+      "Saans phoolना",
+      "Chest tightness",
+      "Khansi (especially night)"
+    ],
+    "warningSigns": [
+      "Severe breathlessness",
+      "Blue lips/nails",
+      "Unable to speak full sentences"
+    ],
+    "diagnosis": "Clinical history + spirometry (lung function test).",
+    "tests": [
+      "Spirometry",
+      "Chest X-ray (sometimes)"
+    ],
+    "treatmentOverview": "Inhalers (reliever + preventer) as prescribed; avoid triggers.",
+    "lifestyle": [
+      "Avoid triggers (dust, smoke)",
+      "Regular inhaler use as prescribed",
+      "Stay active",
+      "Vaccinations (flu)"
+    ],
+    "prevention": [
+      "Avoid smoke/allergens",
+      "Manage allergies",
+      "Follow treatment plan"
+    ],
+    "relatedMedicines": [
+      "Montelukast"
+    ],
+    "whenUrgent": "Severe breathlessness, blue lips, or unable to speak — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "inhaler sahi tarah kaise use करूँ?",
+      "ट्रिगर कैसे पहचानूँ?",
+      "exercise से पहले क्या करूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "dengue",
+    "name": "Dengue Fever",
+    "hindi": "डेंगू बुखार",
+    "category": "Infectious",
+    "whatIsIt": {
+      "en": "A viral infection spread by Aedes mosquitoes, causing high fever and low platelets.",
+      "hi": "एडीज मच्छर से फैलने वाला वायरल इन्फेक्शन, जिससे तेज़ बुखार और platelets कम होते हैं।"
+    },
+    "causes": [
+      "Dengue virus (4 types)",
+      "Bite of infected Aedes mosquito"
+    ],
+    "riskFactors": [
+      "Living in mosquito-prone areas",
+      "Monsoon season",
+      "Stagnant water around home"
+    ],
+    "symptoms": [
+      "High fever",
+      "Severe headache",
+      "Pain behind eyes",
+      "Joint/muscle pain",
+      "Rash",
+      "Nausea"
+    ],
+    "warningSigns": [
+      "Severe stomach pain",
+      "Vomiting",
+      "Bleeding gums/nose",
+      "Weakness",
+      "Restlessness"
+    ],
+    "diagnosis": "Blood test — Dengue NS1 antigen, IgM/IgG antibodies, platelet count.",
+    "tests": [
+      "Dengue NS1",
+      "Platelet Count",
+      "WBC Count"
+    ],
+    "treatmentOverview": "No specific antiviral — supportive care: fluids, paracetamol for fever, rest. Avoid aspirin/ibuprofen.",
+    "lifestyle": [
+      "Plenty of fluids",
+      "Rest",
+      "Monitor platelet count",
+      "Mosquito protection"
+    ],
+    "prevention": [
+      "Prevent mosquito breeding (no stagnant water)",
+      "Use repellents/nets",
+      "Full-sleeve clothes"
+    ],
+    "relatedMedicines": [
+      "Paracetamol"
+    ],
+    "whenUrgent": "Severe stomach pain, bleeding, or persistent vomiting — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "platelets कितनी बार check करानी होगी?",
+      "कौनसी दवा लूँ/न लूँ?",
+      "कब hospital जाना ज़रूरी है?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "typhoid",
+    "name": "Typhoid Fever",
+    "hindi": "टाइफाइड (मियादी बुखार)",
+    "category": "Infectious",
+    "whatIsIt": {
+      "en": "A bacterial infection from contaminated food/water, causing prolonged fever.",
+      "hi": "दूषित भोजन/पानी से होने वाला बैक्टीरियल इन्फेक्शन, जिससे लंबे समय बुखार रहता है।"
+    },
+    "causes": [
+      "Salmonella Typhi bacteria",
+      "Contaminated food or water"
+    ],
+    "riskFactors": [
+      "Poor sanitation",
+      "Eating street food (unhygienic)",
+      "Travel to high-risk areas"
+    ],
+    "symptoms": [
+      "Prolonged fever",
+      "Weakness",
+      "Stomach pain",
+      "Headache",
+      "Constipation or diarrhea",
+      "Loss of appetite"
+    ],
+    "warningSigns": [
+      "High persistent fever",
+      "Confusion",
+      "Severe stomach pain",
+      "Bleeding"
+    ],
+    "diagnosis": "Blood test — Widal test, blood culture (most accurate), Typhidot.",
+    "tests": [
+      "Widal Test",
+      "Blood Culture",
+      "WBC Count"
+    ],
+    "treatmentOverview": "Antibiotics (as prescribed) + fluids + rest. Complete full antibiotic course.",
+    "lifestyle": [
+      "Plenty of fluids",
+      "Rest",
+      "Soft easily digestible food",
+      "Hygiene"
+    ],
+    "prevention": [
+      "Safe drinking water (boiled/filtered)",
+      "Hand washing",
+      "Avoid unhygienic street food",
+      "Vaccination"
+    ],
+    "relatedMedicines": [
+      "Cefixime",
+      "Azithromycin",
+      "Ciprofloxacin"
+    ],
+    "whenUrgent": "High fever not improving, confusion, or severe stomach pain — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "antibiotic कितने दिन लेनी है?",
+      "क्या पूरा कोर्स ज़रूरी है?",
+      "कब दोबारा जांच कराऊँ?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "gastritis",
+    "name": "Gastritis / Acidity",
+    "hindi": "गैस्ट्राइटिस / एसिडिटी",
+    "category": "Digestive",
+    "whatIsIt": {
+      "en": "Inflammation of the stomach lining, often causing acidity and discomfort.",
+      "hi": "पेट की परत की सूजन, जिससे अक्सर एसिडिटी और असहजता होती है।"
+    },
+    "causes": [
+      "Spicy/oily food",
+      "Alcohol",
+      "Stress",
+      "Painkillers (NSAIDs)",
+      "H. pylori infection"
+    ],
+    "riskFactors": [
+      "Frequent spicy food",
+      "Alcohol use",
+      "Long-term NSAIDs",
+      "Smoking"
+    ],
+    "symptoms": [
+      "Seene mein jalan (heartburn)",
+      "Pet dard",
+      "Gas / bloating",
+      "Nausea",
+      "Khatti dakaar"
+    ],
+    "warningSigns": [
+      "Black stools",
+      "Vomiting blood",
+      "Unexplained weight loss"
+    ],
+    "diagnosis": "Clinical history; endoscopy if persistent or warning signs.",
+    "tests": [
+      "H. pylori test (if needed)",
+      "Hemoglobin (if bleeding suspected)"
+    ],
+    "treatmentOverview": "Antacids / PPIs (Pantoprazole, Omeprazole) as prescribed; avoid triggers.",
+    "lifestyle": [
+      "Small frequent meals",
+      "Avoid spicy/oily food",
+      "Quit alcohol/smoking",
+      "Stress management",
+      "Avoid late-night meals"
+    ],
+    "prevention": [
+      "Healthy diet",
+      "Avoid triggers",
+      "Limit NSAIDs",
+      "Manage stress"
+    ],
+    "relatedMedicines": [
+      "Pantoprazole",
+      "Omeprazole",
+      "Rabeprazole"
+    ],
+    "whenUrgent": "Black stools, vomiting blood, or severe stomach pain — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "कौनसे foods बचें?",
+      "दवा कितने समय तक?",
+      "endoscopy चाहिए क्या?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "urinary-tract-infection",
+    "name": "Urinary Tract Infection (UTI)",
+    "hindi": "मूत्र मार्ग इन्फेक्शन (UTI)",
+    "category": "Infectious",
+    "whatIsIt": {
+      "en": "Infection in the urinary system (bladder, kidneys), usually bacterial.",
+      "hi": "मूत्र प्रणाली (bladder, किडनी) में इन्फेक्शन, आमतौर पर बैक्टीरियल।"
+    },
+    "causes": [
+      "Bacteria (usually E. coli)",
+      "Poor hygiene",
+      "Holding urine too long"
+    ],
+    "riskFactors": [
+      "Women (shorter urethra)",
+      "Diabetes",
+      "Kidney stones",
+      "Catheter use"
+    ],
+    "symptoms": [
+      "Bar-bar peshab",
+      "Jalan during urination",
+      "Pet ke neeche dard",
+      "Cloudy/bloody urine",
+      "Fever (if kidney involved)"
+    ],
+    "warningSigns": [
+      "High fever with back pain",
+      "Vomiting",
+      "Confusion (elderly)"
+    ],
+    "diagnosis": "Urine test — routine + culture.",
+    "tests": [
+      "Urine Routine",
+      "Urine Culture"
+    ],
+    "treatmentOverview": "Antibiotics (as prescribed) + plenty of water. Complete full course.",
+    "lifestyle": [
+      "Plenty of water",
+      "Don't hold urine",
+      "Good hygiene",
+      "Cranberry (some evidence)"
+    ],
+    "prevention": [
+      "Hydration",
+      "Hygiene",
+      "Urinate after intercourse",
+      "Avoid holding urine"
+    ],
+    "relatedMedicines": [
+      "Ciprofloxacin",
+      "Cefixime"
+    ],
+    "whenUrgent": "High fever with back pain or vomiting — seek urgent medical attention (may be kidney infection).",
+    "questionsForDoctor": [
+      "antibiotic कितने दिन?",
+      "क्या urine culture ज़रूरी है?",
+      "दोबारा कैसे बचूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "kidney-stones",
+    "name": "Kidney Stones",
+    "hindi": "किडनी की पथरी",
+    "category": "Kidney / Urology",
+    "whatIsIt": {
+      "en": "Hard mineral deposits that form in the kidneys and can cause severe pain.",
+      "hi": "किडनी में बनने वाले कठोर खनिज जमाव, जो गंभीर दर्द पैदा कर सकते हैं।"
+    },
+    "causes": [
+      "Low water intake",
+      "High salt/oxalate diet",
+      "High uric acid",
+      "Family history"
+    ],
+    "riskFactors": [
+      "Dehydration",
+      "Obesity",
+      "High animal protein",
+      "Certain medicines"
+    ],
+    "symptoms": [
+      "Tez kamar/pet dard",
+      "Peshab mein khoon",
+      "Jalan during urination",
+      "Nausea/vomiting",
+      "Bar-bar peshab"
+    ],
+    "warningSigns": [
+      "Severe pain with fever",
+      "Unable to pass urine",
+      "Persistent vomiting"
+    ],
+    "diagnosis": "Ultrasound, urine test, X-ray/CT scan.",
+    "tests": [
+      "Urine Routine",
+      "Uric Acid",
+      "Creatinine",
+      "Calcium"
+    ],
+    "treatmentOverview": "Small stones pass with water; larger may need medicines or procedures as advised by doctor.",
+    "lifestyle": [
+      "Plenty of water (2-3L/day)",
+      "Less salt",
+      "Limit oxalate foods if advised",
+      "Less animal protein"
+    ],
+    "prevention": [
+      "Hydration",
+      "Balanced diet",
+      "Manage uric acid",
+      "Regular checkups if recurrent"
+    ],
+    "relatedMedicines": [
+      "Ibuprofen",
+      "Diclofenac"
+    ],
+    "whenUrgent": "Severe pain with fever or unable to pass urine — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "stone कितनी बड़ी है?",
+      "dawa se niklega ya procedure चाहिए?",
+      "आगे कैसे बचूँ?"
+    ],
+    "source": "ICMR · WHO"
+  },
+  {
+    "slug": "fatty-liver",
+    "name": "Fatty Liver Disease",
+    "hindi": "फैटी लिवर",
+    "category": "Liver",
+    "whatIsIt": {
+      "en": "Build-up of fat in liver cells, often linked to obesity, diabetes or alcohol.",
+      "hi": "लिवर कोशिकाओं में वसा जमा होना, अक्सर मोटापा, डायबिटीज या शराब से जुड़ा।"
+    },
+    "causes": [
+      "Obesity",
+      "Diabetes / insulin resistance",
+      "Alcohol",
+      "High cholesterol",
+      "Poor diet"
+    ],
+    "riskFactors": [
+      "Overweight",
+      "Type 2 diabetes",
+      "High triglycerides",
+      "Alcohol use"
+    ],
+    "symptoms": [
+      "Often no symptoms",
+      "Thakaan",
+      "Pet ke upar dard",
+      "Weakness"
+    ],
+    "warningSigns": [
+      "Yellow skin/eyes",
+      "Swelling in legs/abdomen",
+      "Confusion"
+    ],
+    "diagnosis": "Ultrasound + liver function tests (SGPT/SGOT).",
+    "tests": [
+      "SGPT/ALT",
+      "SGOT/AST",
+      "Ultrasound",
+      "Lipid Profile"
+    ],
+    "treatmentOverview": "Lifestyle change (weight loss, diet, exercise) is main treatment; no specific medicine.",
+    "lifestyle": [
+      "Weight loss (5-10%)",
+      "Less sugar/fried food",
+      "Exercise",
+      "Avoid alcohol",
+      "Control diabetes"
+    ],
+    "prevention": [
+      "Healthy weight",
+      "Balanced diet",
+      "Limit alcohol",
+      "Regular checkups"
+    ],
+    "relatedMedicines": [
+      "Atorvastatin",
+      "Metformin"
+    ],
+    "whenUrgent": "Yellow skin/eyes or abdominal swelling — seek medical attention.",
+    "questionsForDoctor": [
+      "liver kitna damage hua hai?",
+      "क्या वापस ठीक हो सकता है?",
+      "diet में क्या बदलूँ?"
+    ],
+    "source": "ICMR · WHO"
+  },
+  {
+    "slug": "high-cholesterol",
+    "name": "High Cholesterol (Dyslipidemia)",
+    "hindi": "हाई कोलेस्ट्रॉल",
+    "category": "Cardiovascular",
+    "whatIsIt": {
+      "en": "High levels of fats (LDL, triglycerides) in blood, increasing heart disease risk.",
+      "hi": "खून में वसा (LDL, ट्राइग्लिसराइड्स) का बढ़ा स्तर, जिससे दिल की बीमारी का खतरा बढ़ता है।"
+    },
+    "causes": [
+      "Diet high in saturated fat",
+      "Genetic (familial)",
+      "Obesity",
+      "Lack of exercise",
+      "Diabetes"
+    ],
+    "riskFactors": [
+      "Family history",
+      "High-fat diet",
+      "Smoking",
+      "Diabetes",
+      "Sedentary lifestyle"
+    ],
+    "symptoms": [
+      "Usually no symptoms",
+      "Detected on blood test"
+    ],
+    "warningSigns": [
+      "Chest pain (if heart disease develops)",
+      "Breathlessness"
+    ],
+    "diagnosis": "Lipid profile blood test (fasting).",
+    "tests": [
+      "Total Cholesterol",
+      "LDL",
+      "HDL",
+      "Triglycerides"
+    ],
+    "treatmentOverview": "Lifestyle changes + statins (Atorvastatin, Rosuvastatin) as prescribed.",
+    "lifestyle": [
+      "Low saturated fat diet",
+      "Regular exercise",
+      "Weight loss",
+      "Quit smoking",
+      "More fiber (oats)"
+    ],
+    "prevention": [
+      "Healthy diet",
+      "Exercise",
+      "Regular lipid checkups",
+      "Avoid smoking"
+    ],
+    "relatedMedicines": [
+      "Atorvastatin",
+      "Rosuvastatin"
+    ],
+    "whenUrgent": "Chest pain or breathlessness — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "मेरा LDL target क्या है?",
+      "statins कितने समय तक?",
+      "diet में क्या बदलूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "pcod",
+    "name": "PCOS (Polycystic Ovary Syndrome)",
+    "hindi": "पीसीओएस (पॉलीसिस्टिक ओवरी सिंड्रोम)",
+    "category": "Endocrine / Gynecological",
+    "whatIsIt": {
+      "en": "A hormonal disorder in women causing irregular periods, excess male hormone, and ovarian cysts.",
+      "hi": "महिलाओं में हार्मोनल विकार, जिससे अनियमित माहवारी, अधिक पुरुष हार्मोन और ओवरी में सिस्ट होते हैं।"
+    },
+    "causes": [
+      "Insulin resistance",
+      "Hormonal imbalance",
+      "Genetic tendency",
+      "Lifestyle factors"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Obesity",
+      "Insulin resistance"
+    ],
+    "symptoms": [
+      "Irregular periods",
+      "Weight gain",
+      "Acne",
+      "Facial hair (hirsutism)",
+      "Hair thinning",
+      "Difficulty conceiving"
+    ],
+    "warningSigns": [
+      "Very heavy or prolonged bleeding"
+    ],
+    "diagnosis": "Ultrasound + hormone tests (FSH, LH, testosterone, insulin).",
+    "tests": [
+      "FSH",
+      "LH",
+      "Testosterone",
+      "Fasting Insulin"
+    ],
+    "treatmentOverview": "Lifestyle (weight loss) + medicines (Metformin, hormonal) as prescribed.",
+    "lifestyle": [
+      "Weight loss (helps symptoms)",
+      "Regular exercise",
+      "Low glycemic diet",
+      "Stress management"
+    ],
+    "prevention": [
+      "Healthy weight",
+      "Active lifestyle",
+      "Manage insulin resistance early"
+    ],
+    "relatedMedicines": [
+      "Metformin"
+    ],
+    "whenUrgent": "Very heavy or prolonged bleeding — seek medical attention.",
+    "questionsForDoctor": [
+      "क्या मैं conceive कर सकती हूँ?",
+      "इलाज क्या है?",
+      "diet में क्या बदलूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "arthritis",
+    "name": "Arthritis (Osteoarthritis)",
+    "hindi": "गठिया (जोड़ों का दर्द)",
+    "category": "Bones & Joints",
+    "whatIsIt": {
+      "en": "Wear-and-tear of joint cartilage causing pain and stiffness, usually with age.",
+      "hi": "जोड़ों की उपास्थि का घिसना, जिससे दर्द और अकड़न होती है, आमतौर पर उम्र के साथ।"
+    },
+    "causes": [
+      "Age-related wear",
+      "Joint injury",
+      "Obesity (extra load)",
+      "Genetic tendency"
+    ],
+    "riskFactors": [
+      "Age 50+",
+      "Obesity",
+      "Previous joint injury",
+      "Family history"
+    ],
+    "symptoms": [
+      "Joint pain",
+      "Stiffness (morning)",
+      "Swelling",
+      "Reduced movement"
+    ],
+    "warningSigns": [
+      "Sudden severe joint swelling with fever"
+    ],
+    "diagnosis": "Clinical exam + X-ray.",
+    "tests": [
+      "Uric Acid (rule out gout)",
+      "CRP/ESR (inflammation)",
+      "X-ray"
+    ],
+    "treatmentOverview": "Pain relief (NSAIDs), physiotherapy, weight management; joint replacement in severe cases.",
+    "lifestyle": [
+      "Weight loss",
+      "Low-impact exercise (walking, swimming)",
+      "Physiotherapy",
+      "Warm compress"
+    ],
+    "prevention": [
+      "Healthy weight",
+      "Protect joints",
+      "Stay active",
+      "Avoid injury"
+    ],
+    "relatedMedicines": [
+      "Diclofenac",
+      "Ibuprofen",
+      "Naproxen"
+    ],
+    "whenUrgent": "Sudden severe joint swelling with fever — seek medical attention (may be infection/gout).",
+    "questionsForDoctor": [
+      "dawa कितने समय तक?",
+      "exercise कौनसी करूँ?",
+      "क्या joint replacement चाहिए?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "covid",
+    "name": "COVID-19",
+    "hindi": "कोविड-19 (कोरोना)",
+    "category": "Infectious",
+    "whatIsIt": {
+      "en": "Viral respiratory infection caused by SARS-CoV-2.",
+      "hi": "SARS-CoV-2 वायरस से होने वाला श्वसन इन्फेक्शन।"
+    },
+    "causes": [
+      "SARS-CoV-2 virus",
+      "Spread through respiratory droplets"
+    ],
+    "riskFactors": [
+      "Age 60+",
+      "Diabetes",
+      "Heart/lung disease",
+      "Weak immunity",
+      "Obesity"
+    ],
+    "symptoms": [
+      "Fever",
+      "Khansi",
+      "Saans phoolना",
+      "Thakaan",
+      "Sore throat",
+      "Loss of smell/taste"
+    ],
+    "warningSigns": [
+      "Severe breathlessness",
+      "Chest pain",
+      "Blue lips",
+      "Confusion"
+    ],
+    "diagnosis": "RT-PCR or rapid antigen test.",
+    "tests": [
+      "COVID RT-PCR",
+      "CRP",
+      "D-Dimer (severe cases)"
+    ],
+    "treatmentOverview": "Supportive care for mild cases; hospital care for severe. Follow doctor's advice.",
+    "lifestyle": [
+      "Rest",
+      "Fluids",
+      "Isolation",
+      "Monitor oxygen level if advised"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Mask in crowded places",
+      "Hand hygiene",
+      "Ventilation"
+    ],
+    "relatedMedicines": [
+      "Paracetamol"
+    ],
+    "whenUrgent": "Severe breathlessness, chest pain, or low oxygen — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "क्या मुझे hospital जाना चाहिए?",
+      "oxygen कैसे monitor करूँ?",
+      "कौनसी दवा सुरक्षित है?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "migraine",
+    "name": "Migraine",
+    "hindi": "माइग्रेन (आधा सिरदर्द)",
+    "category": "Neurological",
+    "whatIsIt": {
+      "en": "A neurological condition causing severe, throbbing headache, often one-sided, with nausea.",
+      "hi": "न्यूरोलॉजिकल स्थिति जिसमें गंभीर, धड़कता हुआ सिरदर्द होता है, अक्सर एक तरफ, जी मिचलाने के साथ।"
+    },
+    "causes": [
+      "Genetic tendency",
+      "Hormonal changes",
+      "Triggers (stress, food, sleep)"
+    ],
+    "riskFactors": [
+      "Women",
+      "Family history",
+      "Stress",
+      "Hormonal changes"
+    ],
+    "symptoms": [
+      "Throbbing headache (one side)",
+      "Nausea/vomiting",
+      "Light/sound sensitivity",
+      "Aura (visual changes)"
+    ],
+    "warningSigns": [
+      "Sudden severe headache (worst ever)",
+      "Headache with fever/stiff neck",
+      "Headache after injury"
+    ],
+    "diagnosis": "Clinical history; imaging if warning signs.",
+    "tests": [
+      "Clinical diagnosis (no specific test)"
+    ],
+    "treatmentOverview": "Pain relief (NSAIDs), anti-migraine medicines; avoid triggers as advised by doctor.",
+    "lifestyle": [
+      "Identify & avoid triggers",
+      "Regular sleep",
+      "Stress management",
+      "Hydration",
+      "Regular meals"
+    ],
+    "prevention": [
+      "Avoid triggers",
+      "Regular routine",
+      "Medicines if frequent (doctor advised)"
+    ],
+    "relatedMedicines": [
+      "Ibuprofen",
+      "Naproxen",
+      "Diclofenac"
+    ],
+    "whenUrgent": "Sudden worst-ever headache, fever with stiff neck, or headache after injury — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "मेरा trigger क्या है?",
+      "कौनसी दवा लूँ?",
+      "क्या preventive दवा चाहिए?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "conjunctivitis",
+    "name": "Conjunctivitis (Eye Infection)",
+    "hindi": "आँख आना (कंजंक्टिवाइटिस)",
+    "category": "Eye",
+    "whatIsIt": {
+      "en": "Inflammation of the eye's outer membrane, causing redness and discharge.",
+      "hi": "आँख की बाहरी झिल्ली की सूजन, जिससे लालिमा और पानी/पस आता है।"
+    },
+    "causes": [
+      "Viral or bacterial infection",
+      "Allergy",
+      "Irritants"
+    ],
+    "riskFactors": [
+      "Contact with infected person",
+      "Poor hygiene",
+      "Contact lens use"
+    ],
+    "symptoms": [
+      "Aankhon mein laalpan",
+      "Pani aana",
+      "Khujli",
+      "Chubhan",
+      "Discharge (pus)"
+    ],
+    "warningSigns": [
+      "Vision loss",
+      "Severe eye pain",
+      "Light sensitivity"
+    ],
+    "diagnosis": "Eye examination by doctor.",
+    "tests": [
+      "Clinical diagnosis (eye exam)"
+    ],
+    "treatmentOverview": "Eye drops (antibiotic if bacterial) as prescribed; avoid touching eyes.",
+    "lifestyle": [
+      "Hand hygiene",
+      "Don't share towels",
+      "Avoid touching eyes",
+      "Clean contact lenses"
+    ],
+    "prevention": [
+      "Hand washing",
+      "Avoid sharing personal items",
+      "Don't rub eyes"
+    ],
+    "relatedMedicines": [
+      "Ciprofloxacin (eye drops)"
+    ],
+    "whenUrgent": "Vision loss or severe eye pain — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "क्या antibiotic drops चाहिए?",
+      "कितने दिन तक?",
+      "दूसरों को फैलने से कैसे बचाऊँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "tuberculosis",
+    "name": "Tuberculosis (TB)",
+    "hindi": "टीबी (तपेदिक)",
+    "category": "Infectious",
+    "whatIsIt": {
+      "en": "A bacterial infection mainly affecting the lungs, spread through air.",
+      "hi": "बैक्टीरियल इन्फेक्शन जो मुख्यतः फेफड़ों को प्रभावित करता है, हवा से फैलता है।"
+    },
+    "causes": [
+      "Mycobacterium tuberculosis bacteria",
+      "Airborne spread from coughing/sneezing"
+    ],
+    "riskFactors": [
+      "Weak immunity",
+      "HIV",
+      "Diabetes",
+      "Malnutrition",
+      "Close contact with TB patient"
+    ],
+    "symptoms": [
+      "Khansi 2+ weeks",
+      "Fever (evening)",
+      "Weight loss",
+      "Night sweats",
+      "Khansi mein khoon"
+    ],
+    "warningSigns": [
+      "Coughing blood",
+      "Severe breathlessness",
+      "Chest pain"
+    ],
+    "diagnosis": "Sputum test, chest X-ray, TB skin/blood test.",
+    "tests": [
+      "Sputum AFB/CBNAAT",
+      "Chest X-ray"
+    ],
+    "treatmentOverview": "Long-term multi-drug antibiotic course (DOTS) under supervision — complete full course.",
+    "lifestyle": [
+      "Complete full treatment",
+      "Good nutrition",
+      "Cover mouth while coughing",
+      "Isolation in initial phase"
+    ],
+    "prevention": [
+      "BCG vaccination",
+      "Good ventilation",
+      "Early treatment",
+      "Nutrition"
+    ],
+    "relatedMedicines": [
+      "Anti-TB drugs (prescription only)"
+    ],
+    "whenUrgent": "Coughing blood or severe breathlessness — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "इलाज कितने महीने चलेगा?",
+      "दवा कैसे लेनी है?",
+      "परिवार को क्या जांच करानी चाहिए?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "malaria",
+    "name": "Malaria",
+    "hindi": "मलेरिया",
+    "category": "Infectious",
+    "whatIsIt": {
+      "en": "A parasitic infection spread by Anopheles mosquitoes, causing fever with chills.",
+      "hi": "एनोफिलीज मच्छर से फैलने वाला परजीवी इन्फेक्शन, जिससे ठंड लगकर बुखार आता है।"
+    },
+    "causes": [
+      "Plasmodium parasite",
+      "Bite of infected Anopheles mosquito"
+    ],
+    "riskFactors": [
+      "Mosquito-prone areas",
+      "Monsoon",
+      "Travel to endemic areas"
+    ],
+    "symptoms": [
+      "Fever with chills/shivering",
+      "Sweating",
+      "Headache",
+      "Body ache",
+      "Nausea"
+    ],
+    "warningSigns": [
+      "Confusion",
+      "Severe weakness",
+      "Jaundice",
+      "Breathing difficulty"
+    ],
+    "diagnosis": "Blood smear / rapid diagnostic test.",
+    "tests": [
+      "Malaria Parasite (blood smear)",
+      "CBC"
+    ],
+    "treatmentOverview": "Anti-malarial medicines as prescribed; complete full course.",
+    "lifestyle": [
+      "Rest",
+      "Fluids",
+      "Mosquito protection",
+      "Complete treatment"
+    ],
+    "prevention": [
+      "Mosquito nets/repellents",
+      "No stagnant water",
+      "Prophylaxis if traveling to high-risk areas"
+    ],
+    "relatedMedicines": [
+      "Doxycycline (prevention)"
+    ],
+    "whenUrgent": "Confusion, jaundice, or breathing difficulty — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "कौनसी दवा लेनी है?",
+      "कितने दिन तक?",
+      "दोबारा कैसे बचूँ?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "gout",
+    "name": "Gout",
+    "hindi": "गाउट (गठिया बाई)",
+    "category": "Bones & Joints",
+    "whatIsIt": {
+      "en": "A type of arthritis from high uric acid, causing sudden severe joint pain (often big toe).",
+      "hi": "उच्च यूरिक एसिड से होने वाला गठिया, जिससे अचानक गंभीर जोड़ दर्द (अक्सर बड़ा पैर का अंगूठा) होता है।"
+    },
+    "causes": [
+      "High uric acid",
+      "Purine-rich diet",
+      "Kidney issues",
+      "Alcohol"
+    ],
+    "riskFactors": [
+      "Men",
+      "Obesity",
+      "High meat/seafood",
+      "Alcohol",
+      "Diuretics"
+    ],
+    "symptoms": [
+      "Sudden severe joint pain",
+      "Swelling/redness",
+      "Warm joint",
+      "Big toe common"
+    ],
+    "warningSigns": [
+      "Fever with joint pain",
+      "Multiple joint involvement"
+    ],
+    "diagnosis": "Blood uric acid + joint fluid analysis.",
+    "tests": [
+      "Uric Acid",
+      "CRP"
+    ],
+    "treatmentOverview": "Anti-inflammatory medicines for attack; uric acid-lowering medicines long-term as prescribed.",
+    "lifestyle": [
+      "Less red meat/seafood",
+      "Avoid alcohol (esp. beer)",
+      "Plenty of water",
+      "Weight loss"
+    ],
+    "prevention": [
+      "Manage uric acid",
+      "Healthy diet",
+      "Hydration",
+      "Limit alcohol"
+    ],
+    "relatedMedicines": [
+      "Diclofenac",
+      "Ibuprofen",
+      "Naproxen"
+    ],
+    "whenUrgent": "Joint pain with fever — seek medical attention.",
+    "questionsForDoctor": [
+      "कौनसे foods बचें?",
+      "uric acid कैसे कम करूँ?",
+      "दवा कितने समय तक?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "osteoporosis",
+    "name": "Osteoporosis",
+    "hindi": "हड्डियों की कमजोरी (ऑस्टियोपोरोसिस)",
+    "category": "Bones & Joints",
+    "whatIsIt": {
+      "en": "Bones become weak and brittle, increasing fracture risk.",
+      "hi": "हड्डियाँ कमजोर और भंगुर हो जाती हैं, जिससे टूटने का खतरा बढ़ता है।"
+    },
+    "causes": [
+      "Age-related bone loss",
+      "Low calcium/vitamin D",
+      "Menopause (low estrogen)",
+      "Certain medicines"
+    ],
+    "riskFactors": [
+      "Women post-menopause",
+      "Age 60+",
+      "Family history",
+      "Low body weight",
+      "Smoking",
+      "Low calcium"
+    ],
+    "symptoms": [
+      "Often no symptoms",
+      "Back pain",
+      "Height loss",
+      "Frequent fractures"
+    ],
+    "warningSigns": [
+      "Sudden back pain (vertebral fracture)"
+    ],
+    "diagnosis": "Bone density scan (DEXA).",
+    "tests": [
+      "Vitamin D",
+      "Calcium",
+      "Bone density (DEXA)"
+    ],
+    "treatmentOverview": "Calcium + vitamin D supplements, bone-strengthening medicines as prescribed.",
+    "lifestyle": [
+      "Calcium-rich diet",
+      "Weight-bearing exercise",
+      "Vitamin D (sunlight)",
+      "Avoid smoking/alcohol"
+    ],
+    "prevention": [
+      "Adequate calcium & vitamin D",
+      "Exercise",
+      "Avoid smoking",
+      "Fall prevention"
+    ],
+    "relatedMedicines": [
+      "Calcium + Vitamin D3",
+      "Vitamin D3"
+    ],
+    "whenUrgent": "Sudden severe back pain after minor fall — seek medical attention.",
+    "questionsForDoctor": [
+      "कितना calcium/vitamin D लूँ?",
+      "कौनसी exercise करूँ?",
+      "bone density test कब?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "allergic-rhinitis",
+    "name": "Allergic Rhinitis (Hay Fever)",
+    "hindi": "एलर्जिक राइनाइटिस (एलर्जी)",
+    "category": "Allergy / Respiratory",
+    "whatIsIt": {
+      "en": "Allergic reaction of the nose to allergens like dust, pollen, causing sneezing and runny nose.",
+      "hi": "धूल, पराग जैसे एलर्जी कारकों से नाक की एलर्जी, जिससे छींक और नाक बहती है।"
+    },
+    "causes": [
+      "Dust mites",
+      "Pollen",
+      "Pet dander",
+      "Mold"
+    ],
+    "riskFactors": [
+      "Family history of allergy",
+      "Asthma",
+      "Eczema"
+    ],
+    "symptoms": [
+      "Chheenk",
+      "Nak behna/bharna",
+      "Khujli (nose/eyes)",
+      "Watery eyes"
+    ],
+    "warningSigns": [
+      "Breathing difficulty",
+      "Severe swelling"
+    ],
+    "diagnosis": "Clinical history; allergy testing if needed.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Antihistamines (Cetirizine, Levocetirizine), nasal sprays as prescribed.",
+    "lifestyle": [
+      "Avoid allergens",
+      "Dust-proof covers",
+      "Air purifier",
+      "Regular cleaning"
+    ],
+    "prevention": [
+      "Identify & avoid triggers",
+      "Keep home dust-free"
+    ],
+    "relatedMedicines": [
+      "Cetirizine",
+      "Levocetirizine",
+      "Montelukast"
+    ],
+    "whenUrgent": "Breathing difficulty or severe swelling — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "मेरा trigger क्या है?",
+      "कौनसी दवा लूँ?",
+      "क्या allergy testing चाहिए?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "gastroenteritis",
+    "name": "Gastroenteritis (Stomach Flu)",
+    "hindi": "गैस्ट्रोएंटेराइटिस (उल्टी-दस्त)",
+    "category": "Digestive",
+    "whatIsIt": {
+      "en": "Inflammation of stomach and intestines causing diarrhea, vomiting, often viral.",
+      "hi": "पेट और आंतों की सूजन, जिससे दस्त और उल्टी होती है, अक्सर वायरल।"
+    },
+    "causes": [
+      "Virus (rotavirus, norovirus)",
+      "Bacteria (food poisoning)",
+      "Contaminated food/water"
+    ],
+    "riskFactors": [
+      "Poor hygiene",
+      "Contaminated food/water",
+      "Travel"
+    ],
+    "symptoms": [
+      "Dast",
+      "Ulti",
+      "Pet dard",
+      "Fever",
+      "Weakness"
+    ],
+    "warningSigns": [
+      "Blood in stool",
+      "Severe dehydration (dry mouth, low urine)",
+      "High fever"
+    ],
+    "diagnosis": "Clinical; stool test if severe.",
+    "tests": [
+      "Stool test (if needed)",
+      "Electrolytes"
+    ],
+    "treatmentOverview": "Fluids + ORS (oral rehydration) is key; antiemetics if needed. Antibiotics only if bacterial.",
+    "lifestyle": [
+      "ORS / plenty of fluids",
+      "Rest",
+      "Soft diet",
+      "Hygiene"
+    ],
+    "prevention": [
+      "Hand washing",
+      "Safe water/food",
+      "Hygiene"
+    ],
+    "relatedMedicines": [
+      "Ondansetron",
+      "Domperidone"
+    ],
+    "whenUrgent": "Blood in stool, severe dehydration, or high fever — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "ORS कैसे लूँ?",
+      "कौनसी दवा सुरक्षित है?",
+      "कब hospital जाऊँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "acne",
+    "name": "Acne",
+    "hindi": "मुंहासे (पिंपल)",
+    "category": "Skin",
+    "whatIsIt": {
+      "en": "Skin condition with pimples, blackheads and oily skin from clogged pores.",
+      "hi": "त्वचा की स्थिति जिसमें पिंपल, ब्लैकहेड्स और तैलीय त्वचा होती है, बंद रोमछिद्रों से।"
+    },
+    "causes": [
+      "Hormonal changes",
+      "Excess oil",
+      "Clogged pores",
+      "Bacteria",
+      "Diet (some)"
+    ],
+    "riskFactors": [
+      "Teenagers",
+      "Hormonal changes",
+      "Stress",
+      "Certain medicines"
+    ],
+    "symptoms": [
+      "Pimples",
+      "Blackheads/whiteheads",
+      "Oily skin",
+      "Redness"
+    ],
+    "warningSigns": [
+      "Painful deep cysts",
+      "Scarring"
+    ],
+    "diagnosis": "Clinical examination.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Topical creams, cleansers, sometimes oral antibiotics/isotretinoin as prescribed.",
+    "lifestyle": [
+      "Gentle cleansing",
+      "Avoid touching/picking",
+      "Non-comedogenic products",
+      "Healthy diet"
+    ],
+    "prevention": [
+      "Regular cleansing",
+      "Avoid heavy oils",
+      "Don't pop pimples"
+    ],
+    "relatedMedicines": [
+      "Doxycycline"
+    ],
+    "whenUrgent": "Severe painful cysts or spreading redness — seek medical attention.",
+    "questionsForDoctor": [
+      "कौनसा treatment best है?",
+      "diet का असर होता है?",
+      "scarring कैसे रोकूँ?"
+    ],
+    "source": "ICMR · WHO"
+  },
+  {
+    "slug": "insomnia",
+    "name": "Insomnia (Sleep Problems)",
+    "hindi": "नींद न आना (अनिद्रा)",
+    "category": "Mental Health / Sleep",
+    "whatIsIt": {
+      "en": "Difficulty falling or staying asleep, affecting daily function.",
+      "hi": "सोने या सोए रहने में कठिनाई, जिससे दिनचर्या प्रभावित होती है।"
+    },
+    "causes": [
+      "Stress",
+      "Anxiety",
+      "Caffeine",
+      "Irregular sleep schedule",
+      "Medical conditions"
+    ],
+    "riskFactors": [
+      "Stress",
+      "Shift work",
+      "Screen time before bed",
+      "Age"
+    ],
+    "symptoms": [
+      "Difficulty falling asleep",
+      "Waking at night",
+      "Daytime fatigue",
+      "Irritability"
+    ],
+    "warningSigns": [
+      "Severe sleep loss affecting function",
+      "Depression symptoms"
+    ],
+    "diagnosis": "Clinical history; sleep study if needed.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Sleep hygiene first; medicines only short-term as prescribed.",
+    "lifestyle": [
+      "Fixed sleep schedule",
+      "Avoid screens before bed",
+      "Limit caffeine",
+      "Relaxation techniques",
+      "Dark quiet room"
+    ],
+    "prevention": [
+      "Consistent routine",
+      "Limit caffeine/screens",
+      "Exercise regularly"
+    ],
+    "relatedMedicines": [],
+    "whenUrgent": "Severe sleep loss with depression symptoms — seek medical attention.",
+    "questionsForDoctor": [
+      "क्या दवा चाहिए?",
+      "नींद कैसे सुधारूँ?",
+      "क्या stress इसकी वजह है?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "iron-deficiency",
+    "name": "Iron Deficiency",
+    "hindi": "आयरन की कमी",
+    "category": "Blood",
+    "whatIsIt": {
+      "en": "Low iron stores in the body, which can lead to anemia.",
+      "hi": "शरीर में आयरन की कमी, जिससे anemia हो सकता है।"
+    },
+    "causes": [
+      "Low dietary iron",
+      "Blood loss",
+      "Poor absorption",
+      "Pregnancy"
+    ],
+    "riskFactors": [
+      "Women",
+      "Vegetarians",
+      "Pregnancy",
+      "Children"
+    ],
+    "symptoms": [
+      "Thakaan",
+      "Pale skin",
+      "Weakness",
+      "Saans phoolना"
+    ],
+    "warningSigns": [
+      "Severe breathlessness",
+      "Chest pain"
+    ],
+    "diagnosis": "Blood test — Ferritin, serum iron, hemoglobin.",
+    "tests": [
+      "Ferritin",
+      "Serum Iron",
+      "Hemoglobin"
+    ],
+    "treatmentOverview": "Iron supplements + iron-rich diet.",
+    "lifestyle": [
+      "Iron-rich foods",
+      "Vitamin C with meals",
+      "Avoid tea/coffee with iron"
+    ],
+    "prevention": [
+      "Iron-rich diet",
+      "Regular checkups if at risk"
+    ],
+    "relatedMedicines": [
+      "Iron Supplement"
+    ],
+    "whenUrgent": "Severe breathlessness or chest pain — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "कितना iron supplement लूँ?",
+      "कब तक?",
+      "diet में क्या add करूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "vitamin-d-deficiency",
+    "name": "Vitamin D Deficiency",
+    "hindi": "विटामिन D की कमी",
+    "category": "Nutritional",
+    "whatIsIt": {
+      "en": "Low vitamin D levels, affecting bones and immunity.",
+      "hi": "विटामिन D का कम स्तर, जो हड्डियों और रोग प्रतिरोधक क्षमता को प्रभावित करता है।"
+    },
+    "causes": [
+      "Low sun exposure",
+      "Dark skin",
+      "Poor diet",
+      "Kidney/liver issues"
+    ],
+    "riskFactors": [
+      "Indoor lifestyle",
+      "Elderly",
+      "Obesity",
+      "Malabsorption"
+    ],
+    "symptoms": [
+      "Bone pain",
+      "Muscle weakness",
+      "Thakaan",
+      "Low mood"
+    ],
+    "warningSigns": [
+      "Severe bone pain",
+      "Frequent fractures"
+    ],
+    "diagnosis": "Blood test — Vitamin D (25-OH).",
+    "tests": [
+      "Vitamin D (25-OH)",
+      "Calcium"
+    ],
+    "treatmentOverview": "Vitamin D supplements (dose as prescribed) + sunlight.",
+    "lifestyle": [
+      "Sunlight exposure",
+      "Vitamin D-rich foods",
+      "Supplements as advised"
+    ],
+    "prevention": [
+      "Regular sunlight",
+      "Balanced diet",
+      "Checkups if at risk"
+    ],
+    "relatedMedicines": [
+      "Vitamin D3",
+      "Calcium + Vitamin D3"
+    ],
+    "whenUrgent": "Severe bone pain or frequent fractures — seek medical attention.",
+    "questionsForDoctor": [
+      "कितनी dose लूँ?",
+      "कब तक?",
+      "sunlight कितनी ज़रूरी है?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "diarrhea",
+    "name": "Diarrhea",
+    "hindi": "दस्त",
+    "category": "Digestive",
+    "whatIsIt": {
+      "en": "Frequent loose/watery stools, usually from infection or food.",
+      "hi": "बार-बार पतला/पानी जैसा मल, आमतौर पर इन्फेक्शन या भोजन से।"
+    },
+    "causes": [
+      "Viral/bacterial infection",
+      "Food poisoning",
+      "Certain medicines (antibiotics)",
+      "Food intolerance"
+    ],
+    "riskFactors": [
+      "Contaminated food/water",
+      "Travel",
+      "Antibiotic use"
+    ],
+    "symptoms": [
+      "Loose stools",
+      "Pet cramps",
+      "Fever",
+      "Weakness"
+    ],
+    "warningSigns": [
+      "Blood in stool",
+      "Severe dehydration",
+      "High fever"
+    ],
+    "diagnosis": "Clinical; stool test if severe/persistent.",
+    "tests": [
+      "Stool test (if needed)",
+      "Electrolytes"
+    ],
+    "treatmentOverview": "ORS + fluids is key; medicines only as advised. Antibiotics only if bacterial.",
+    "lifestyle": [
+      "ORS/fluids",
+      "BRAT diet (banana, rice)",
+      "Rest",
+      "Hygiene"
+    ],
+    "prevention": [
+      "Safe water/food",
+      "Hand washing",
+      "Hygiene"
+    ],
+    "relatedMedicines": [
+      "Ondansetron"
+    ],
+    "whenUrgent": "Blood in stool, severe dehydration, or high fever — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "ORS कैसे लूँ?",
+      "क्या antibiotic चाहिए?",
+      "कब ठीक होगा?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "obesity",
+    "name": "Obesity",
+    "hindi": "मोटापा",
+    "category": "Metabolic",
+    "whatIsIt": {
+      "en": "Excess body fat that increases risk of diabetes, heart disease and other conditions.",
+      "hi": "शरीर में अतिरिक्त वसा, जो डायबिटीज, दिल की बीमारी और अन्य स्थितियों का खतरा बढ़ाता है।"
+    },
+    "causes": [
+      "High calorie intake",
+      "Low activity",
+      "Genetic factors",
+      "Hormonal issues",
+      "Medicines"
+    ],
+    "riskFactors": [
+      "Sedentary lifestyle",
+      "High processed food",
+      "Family history",
+      "Stress"
+    ],
+    "symptoms": [
+      "Weight gain",
+      "Breathlessness",
+      "Fatigue",
+      "Joint pain"
+    ],
+    "warningSigns": [
+      "Rapid unexplained weight gain"
+    ],
+    "diagnosis": "BMI measurement + waist circumference.",
+    "tests": [
+      "Lipid Profile",
+      "Fasting Glucose",
+      "HbA1c",
+      "TSH"
+    ],
+    "treatmentOverview": "Diet + exercise + behavior change; medicines/surgery in selected cases.",
+    "lifestyle": [
+      "Calorie deficit diet",
+      "Regular exercise",
+      "Sleep",
+      "Stress management"
+    ],
+    "prevention": [
+      "Healthy diet",
+      "Active lifestyle",
+      "Regular checkups"
+    ],
+    "relatedMedicines": [
+      "Metformin"
+    ],
+    "whenUrgent": "Rapid unexplained weight gain with breathlessness — seek medical attention.",
+    "questionsForDoctor": [
+      "मेरा ideal weight क्या है?",
+      "diet plan कैसे बनाऊँ?",
+      "क्या दवा चाहिए?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "b12-deficiency",
+    "name": "Vitamin B12 Deficiency",
+    "hindi": "विटामिन B12 की कमी",
+    "category": "Nutritional",
+    "whatIsIt": {
+      "en": "Low vitamin B12, affecting nerves and red blood cells.",
+      "hi": "विटामिन B12 की कमी, जो नसों और लाल रक्त कोशिकाओं को प्रभावित करती है।"
+    },
+    "causes": [
+      "Poor diet (vegetarian/vegan)",
+      "Absorption problems",
+      "Certain medicines (PPIs, metformin)",
+      "Stomach surgery"
+    ],
+    "riskFactors": [
+      "Vegetarian/vegan diet",
+      "Age 60+",
+      "Long-term PPI/metformin use"
+    ],
+    "symptoms": [
+      "Thakaan",
+      "Sunnpan/tingling (hands/feet)",
+      "Weakness",
+      "Memory problems",
+      "Pale skin"
+    ],
+    "warningSigns": [
+      "Severe numbness",
+      "Balance problems",
+      "Confusion"
+    ],
+    "diagnosis": "Blood test — Vitamin B12, plus MCV.",
+    "tests": [
+      "Vitamin B12",
+      "MCV",
+      "Hemoglobin"
+    ],
+    "treatmentOverview": "B12 supplements (oral/injections) as prescribed.",
+    "lifestyle": [
+      "B12-rich foods (dairy, eggs)",
+      "Supplements if vegetarian",
+      "Fortified foods"
+    ],
+    "prevention": [
+      "Adequate B12 intake",
+      "Monitor if on PPIs/metformin long-term"
+    ],
+    "relatedMedicines": [
+      "Vitamin B12",
+      "Iron Supplement"
+    ],
+    "whenUrgent": "Severe numbness or balance problems — seek medical attention.",
+    "questionsForDoctor": [
+      "कौनसा supplement लूँ?",
+      "injection चाहिए?",
+      "कब तक?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "gerd",
+    "name": "GERD (Acid Reflux)",
+    "hindi": "एसिड रिफ्लक्स (GERD)",
+    "category": "Digestive",
+    "whatIsIt": {
+      "en": "Stomach acid flows back into food pipe, causing heartburn.",
+      "hi": "पेट का एसिड भोजन नली में वापस आता है, जिससे सीने में जलन होती है।"
+    },
+    "causes": [
+      "Weak lower esophageal sphincter",
+      "Obesity",
+      "Hiatal hernia",
+      "Spicy food",
+      "Late-night meals"
+    ],
+    "riskFactors": [
+      "Obesity",
+      "Pregnancy",
+      "Smoking",
+      "Certain foods"
+    ],
+    "symptoms": [
+      "Seene mein jalan",
+      "Khatti dakaar",
+      "Nak mein jalan",
+      "Khansi (night)"
+    ],
+    "warningSigns": [
+      "Difficulty swallowing",
+      "Vomiting blood",
+      "Weight loss"
+    ],
+    "diagnosis": "Clinical; endoscopy if warning signs.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "PPIs (Pantoprazole, Omeprazole) + lifestyle changes.",
+    "lifestyle": [
+      "Small meals",
+      "Avoid late meals",
+      "Elevate head while sleeping",
+      "Weight loss",
+      "Avoid triggers"
+    ],
+    "prevention": [
+      "Healthy weight",
+      "Avoid triggers",
+      "Don't lie down after eating"
+    ],
+    "relatedMedicines": [
+      "Pantoprazole",
+      "Omeprazole",
+      "Rabeprazole"
+    ],
+    "whenUrgent": "Difficulty swallowing, vomiting blood, or weight loss — seek medical attention.",
+    "questionsForDoctor": [
+      "कौनसे foods बचें?",
+      "दवा कितने समय तक?",
+      "endoscopy चाहिए?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "constipation",
+    "name": "Constipation",
+    "hindi": "कब्ज",
+    "category": "Digestive",
+    "whatIsIt": {
+      "en": "Difficulty passing stool or infrequent bowel movements.",
+      "hi": "मल त्यागने में कठिनाई या कम मल त्याग।"
+    },
+    "causes": [
+      "Low fiber",
+      "Low water",
+      "Sedentary lifestyle",
+      "Certain medicines",
+      "Ignoring urge"
+    ],
+    "riskFactors": [
+      "Low fiber diet",
+      "Dehydration",
+      "Age",
+      "Certain medicines"
+    ],
+    "symptoms": [
+      "Kadi mal",
+      "Kam baar mal",
+      "Pet bhar jana",
+      "Straining"
+    ],
+    "warningSigns": [
+      "Blood in stool",
+      "Severe pain",
+      "Unexplained weight loss"
+    ],
+    "diagnosis": "Clinical; tests if warning signs.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Fiber, water, exercise; laxatives short-term if needed.",
+    "lifestyle": [
+      "High fiber (fruits, veggies)",
+      "Plenty of water",
+      "Exercise",
+      "Regular toilet habit"
+    ],
+    "prevention": [
+      "Fiber-rich diet",
+      "Hydration",
+      "Active lifestyle"
+    ],
+    "relatedMedicines": [],
+    "whenUrgent": "Blood in stool or severe pain — seek medical attention.",
+    "questionsForDoctor": [
+      "क्या laxative लूँ?",
+      "diet में क्या add करूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "peptic-ulcer",
+    "name": "Peptic Ulcer",
+    "hindi": "पेट का अल्सर",
+    "category": "Digestive",
+    "whatIsIt": {
+      "en": "Open sore in stomach or upper intestine lining.",
+      "hi": "पेट या आंत की परत में खुला घाव।"
+    },
+    "causes": [
+      "H. pylori infection",
+      "Long-term NSAIDs",
+      "Smoking",
+      "Stress"
+    ],
+    "riskFactors": [
+      "NSAID use",
+      "H. pylori",
+      "Smoking",
+      "Alcohol"
+    ],
+    "symptoms": [
+      "Pet dard (bhookh lagne par)",
+      "Seene mein jalan",
+      "Nausea",
+      "Khatti dakaar"
+    ],
+    "warningSigns": [
+      "Black stools",
+      "Vomiting blood",
+      "Severe pain"
+    ],
+    "diagnosis": "Endoscopy; H. pylori test.",
+    "tests": [
+      "H. pylori test",
+      "Hemoglobin",
+      "Endoscopy"
+    ],
+    "treatmentOverview": "PPIs + antibiotics (if H. pylori) as prescribed.",
+    "lifestyle": [
+      "Avoid NSAIDs",
+      "Quit smoking/alcohol",
+      "Regular meals",
+      "Reduce stress"
+    ],
+    "prevention": [
+      "Limit NSAIDs",
+      "Treat H. pylori",
+      "Avoid smoking/alcohol"
+    ],
+    "relatedMedicines": [
+      "Pantoprazole",
+      "Omeprazole",
+      "Rabeprazole"
+    ],
+    "whenUrgent": "Black stools, vomiting blood, or severe pain — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "क्या H. pylori जांच चाहिए?",
+      "दवा कितने समय?",
+      "NSAIDs बंद करूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "hepatitis",
+    "name": "Hepatitis (Liver Inflammation)",
+    "hindi": "हेपेटाइटिस (लिवर सूजन)",
+    "category": "Liver",
+    "whatIsIt": {
+      "en": "Inflammation of the liver, often from viruses (A, B, C) or alcohol.",
+      "hi": "लिवर की सूजन, अक्सर वायरस (A, B, C) या शराब से।"
+    },
+    "causes": [
+      "Hepatitis A/B/C viruses",
+      "Alcohol",
+      "Certain medicines",
+      "Autoimmune"
+    ],
+    "riskFactors": [
+      "Contaminated food/water (A)",
+      "Unsafe blood/needles (B,C)",
+      "Alcohol"
+    ],
+    "symptoms": [
+      "Thakaan",
+      "Piliya (yellow skin)",
+      "Pet dard",
+      "Nausea",
+      "Dark urine"
+    ],
+    "warningSigns": [
+      "Confusion",
+      "Bleeding",
+      "Severe vomiting"
+    ],
+    "diagnosis": "Liver function tests + hepatitis virus tests.",
+    "tests": [
+      "SGPT/ALT",
+      "SGOT/AST",
+      "Bilirubin",
+      "HBsAg",
+      "HCV"
+    ],
+    "treatmentOverview": "Depends on type; supportive care + specific antivirals as prescribed.",
+    "lifestyle": [
+      "Avoid alcohol completely",
+      "Rest",
+      "Balanced diet",
+      "Hygiene"
+    ],
+    "prevention": [
+      "Vaccination (A, B)",
+      "Safe water/food",
+      "Avoid unsafe needles"
+    ],
+    "relatedMedicines": [],
+    "whenUrgent": "Confusion, bleeding, or severe vomiting — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "किस type का hepatitis है?",
+      "इलाज क्या है?",
+      "क्या संक्रामक है?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "pneumonia",
+    "name": "Pneumonia",
+    "hindi": "निमोनिया",
+    "category": "Respiratory",
+    "whatIsIt": {
+      "en": "Lung infection causing air sacs to fill with fluid.",
+      "hi": "फेफड़ों का इन्फेक्शन जिसमें हवा की थैलियाँ तरल से भर जाती हैं।"
+    },
+    "causes": [
+      "Bacteria",
+      "Viruses",
+      "Fungi"
+    ],
+    "riskFactors": [
+      "Age (young/elderly)",
+      "Weak immunity",
+      "Smoking",
+      "Chronic illness"
+    ],
+    "symptoms": [
+      "Fever",
+      "Khansi (balgam)",
+      "Saans phoolna",
+      "Seene mein dard",
+      "Thakaan"
+    ],
+    "warningSigns": [
+      "Severe breathlessness",
+      "Blue lips",
+      "Confusion"
+    ],
+    "diagnosis": "Chest X-ray + clinical exam.",
+    "tests": [
+      "Chest X-ray",
+      "CRP",
+      "WBC Count"
+    ],
+    "treatmentOverview": "Antibiotics (if bacterial) + rest + fluids.",
+    "lifestyle": [
+      "Rest",
+      "Plenty of fluids",
+      "Complete treatment",
+      "Vaccination"
+    ],
+    "prevention": [
+      "Vaccination (pneumococcal, flu)",
+      "Avoid smoking",
+      "Hand hygiene"
+    ],
+    "relatedMedicines": [
+      "Azithromycin",
+      "Amoxicillin-Clavulanate"
+    ],
+    "whenUrgent": "Severe breathlessness, blue lips, or confusion — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "antibiotic कितने दिन?",
+      "कब hospital जाऊँ?",
+      "vaccination चाहिए?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "bronchitis",
+    "name": "Bronchitis",
+    "hindi": "ब्रोंकाइटिस",
+    "category": "Respiratory",
+    "whatIsIt": {
+      "en": "Inflammation of bronchial tubes causing cough.",
+      "hi": "श्वास नलियों की सूजन जिससे खांसी होती है।"
+    },
+    "causes": [
+      "Virus (most common)",
+      "Bacteria",
+      "Smoking",
+      "Pollution"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Pollution",
+      "Weak immunity"
+    ],
+    "symptoms": [
+      "Khansi (balgam)",
+      "Seene mein jakan",
+      "Thakaan",
+      "Halka bukhar"
+    ],
+    "warningSigns": [
+      "Breathlessness",
+      "Blood in sputum",
+      "High fever"
+    ],
+    "diagnosis": "Clinical; chest X-ray if needed.",
+    "tests": [
+      "Chest X-ray (if needed)",
+      "CRP"
+    ],
+    "treatmentOverview": "Rest, fluids; antibiotics only if bacterial.",
+    "lifestyle": [
+      "Rest",
+      "Fluids",
+      "Avoid smoke",
+      "Steam inhalation"
+    ],
+    "prevention": [
+      "Avoid smoking",
+      "Hand hygiene",
+      "Vaccination"
+    ],
+    "relatedMedicines": [
+      "Azithromycin",
+      "Montelukast"
+    ],
+    "whenUrgent": "Breathlessness or blood in sputum — seek medical attention.",
+    "questionsForDoctor": [
+      "antibiotic चाहिए?",
+      "कितने दिन रहेगा?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "copd",
+    "name": "COPD (Chronic Lung Disease)",
+    "hindi": "सीओपीडी (पुरानी फेफड़े की बीमारी)",
+    "category": "Respiratory",
+    "whatIsIt": {
+      "en": "Long-term lung disease causing breathing difficulty, often from smoking.",
+      "hi": "लंबे समय की फेफड़ों की बीमारी, अक्सर धूम्रपान से, जिससे सांस में दिक्कत होती है।"
+    },
+    "causes": [
+      "Smoking (main cause)",
+      "Air pollution",
+      "Occupational dust",
+      "Genetic (rare)"
+    ],
+    "riskFactors": [
+      "Smoking",
+      "Pollution",
+      "Age 40+",
+      "Chronic exposure"
+    ],
+    "symptoms": [
+      "Saans phoolna",
+      "Khansi (balgam)",
+      "Wheezing",
+      "Thakaan"
+    ],
+    "warningSigns": [
+      "Severe breathlessness",
+      "Blue lips",
+      "Confusion"
+    ],
+    "diagnosis": "Spirometry (lung function test).",
+    "tests": [
+      "Spirometry",
+      "Chest X-ray"
+    ],
+    "treatmentOverview": "Bronchodilators, inhaled steroids, smoking cessation.",
+    "lifestyle": [
+      "Quit smoking (most important)",
+      "Pulmonary rehab",
+      "Vaccination",
+      "Avoid pollution"
+    ],
+    "prevention": [
+      "Never smoke",
+      "Avoid pollution",
+      "Protect lungs at work"
+    ],
+    "relatedMedicines": [
+      "Salbutamol",
+      "Montelukast"
+    ],
+    "whenUrgent": "Severe breathlessness or blue lips — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "inhaler kaise use करूँ?",
+      "धूम्रपान कैसे छोड़ूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "sinusitis",
+    "name": "Sinusitis",
+    "hindi": "साइनसाइटिस (साइनस इन्फेक्शन)",
+    "category": "Respiratory / ENT",
+    "whatIsIt": {
+      "en": "Inflammation of sinus cavities causing facial pain and congestion.",
+      "hi": "साइनस गुहाओं की सूजन जिससे चेहरे में दर्द और नाक बंद होती है।"
+    },
+    "causes": [
+      "Virus",
+      "Bacteria",
+      "Allergy",
+      "Nasal blockage"
+    ],
+    "riskFactors": [
+      "Allergy",
+      "Cold",
+      "Nasal polyps",
+      "Smoking"
+    ],
+    "symptoms": [
+      "Chehre mein dard/dabav",
+      "Nak band",
+      "Nak se peela balgam",
+      "Sirdard",
+      "Bukhar"
+    ],
+    "warningSigns": [
+      "Severe headache",
+      "Vision changes",
+      "Swelling around eyes"
+    ],
+    "diagnosis": "Clinical; CT if chronic.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Decongestants, saline, antibiotics if bacterial.",
+    "lifestyle": [
+      "Steam inhalation",
+      "Saline rinse",
+      "Hydration",
+      "Warm compress"
+    ],
+    "prevention": [
+      "Treat allergies",
+      "Avoid smoke",
+      "Hand hygiene"
+    ],
+    "relatedMedicines": [
+      "Amoxicillin-Clavulanate",
+      "Cetirizine"
+    ],
+    "whenUrgent": "Vision changes or swelling around eyes — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "antibiotic चाहिए?",
+      "कितने दिन?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "tonsillitis",
+    "name": "Tonsillitis",
+    "hindi": "गले का इन्फेक्शन (टॉन्सिल)",
+    "category": "ENT",
+    "whatIsIt": {
+      "en": "Inflammation of tonsils causing sore throat.",
+      "hi": "टॉन्सिल की सूजन जिससे गले में खराश होती है।"
+    },
+    "causes": [
+      "Virus",
+      "Bacteria (strep)",
+      ""
+    ],
+    "riskFactors": [
+      "Children",
+      "Close contact",
+      "Weak immunity"
+    ],
+    "symptoms": [
+      "Gale mein kharaash",
+      "Nigalne mein dard",
+      "Bukhar",
+      "Suje hue tonsils"
+    ],
+    "warningSigns": [
+      "Breathing difficulty",
+      "Difficulty swallowing saliva",
+      "High fever"
+    ],
+    "diagnosis": "Clinical exam.",
+    "tests": [
+      "Throat swab (if needed)"
+    ],
+    "treatmentOverview": "Pain relief + antibiotics if bacterial.",
+    "lifestyle": [
+      "Warm liquids",
+      "Salt water gargle",
+      "Rest",
+      "Hydration"
+    ],
+    "prevention": [
+      "Hand hygiene",
+      "Avoid sharing utensils"
+    ],
+    "relatedMedicines": [
+      "Amoxicillin-Clavulanate",
+      "Azithromycin",
+      "Cefixime"
+    ],
+    "whenUrgent": "Breathing difficulty or unable to swallow — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "antibiotic चाहिए?",
+      "क्या surgery चाहिए?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "common-cold",
+    "name": "Common Cold",
+    "hindi": "जुकाम",
+    "category": "Respiratory",
+    "whatIsIt": {
+      "en": "Viral infection of nose and throat.",
+      "hi": "नाक और गले का वायरल इन्फेक्शन।"
+    },
+    "causes": [
+      "Virus (rhinovirus etc.)"
+    ],
+    "riskFactors": [
+      "Close contact",
+      "Weak immunity",
+      "Winter"
+    ],
+    "symptoms": [
+      "Nak behna",
+      "Chheenk",
+      "Gale mein kharaash",
+      "Khansi",
+      "Halka bukhar"
+    ],
+    "warningSigns": [
+      "High fever",
+      "Severe headache",
+      "Ear pain"
+    ],
+    "diagnosis": "Clinical.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Rest, fluids, symptomatic relief (paracetamol). No antibiotics (viral).",
+    "lifestyle": [
+      "Rest",
+      "Fluids",
+      "Steam",
+      "Warm liquids"
+    ],
+    "prevention": [
+      "Hand hygiene",
+      "Avoid close contact",
+      "Immunity"
+    ],
+    "relatedMedicines": [
+      "Paracetamol",
+      "Cetirizine"
+    ],
+    "whenUrgent": "High fever or severe symptoms — seek medical attention.",
+    "questionsForDoctor": [
+      "क्या antibiotic चाहिए?",
+      "कितने दिन रहेगा?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "influenza",
+    "name": "Influenza (Flu)",
+    "hindi": "इन्फ्लूएंजा (फ्लू)",
+    "category": "Infectious",
+    "whatIsIt": {
+      "en": "Viral respiratory illness, more severe than common cold.",
+      "hi": "वायरल श्वसन बीमारी, जुकाम से ज़्यादा गंभीर।"
+    },
+    "causes": [
+      "Influenza virus"
+    ],
+    "riskFactors": [
+      "Age (young/elderly)",
+      "Weak immunity",
+      "Pregnancy",
+      "Chronic illness"
+    ],
+    "symptoms": [
+      "Tez bukhar",
+      "Body ache",
+      "Thakaan",
+      "Khansi",
+      "Gale mein kharaash"
+    ],
+    "warningSigns": [
+      "Breathlessness",
+      "Chest pain",
+      "Confusion"
+    ],
+    "diagnosis": "Clinical; flu test if needed.",
+    "tests": [
+      "Flu test (if needed)",
+      "CRP"
+    ],
+    "treatmentOverview": "Rest, fluids, paracetamol; antiviral if prescribed early.",
+    "lifestyle": [
+      "Rest",
+      "Fluids",
+      "Isolation",
+      "Symptom relief"
+    ],
+    "prevention": [
+      "Annual flu vaccination",
+      "Hand hygiene",
+      "Avoid contact"
+    ],
+    "relatedMedicines": [
+      "Paracetamol"
+    ],
+    "whenUrgent": "Breathlessness or chest pain — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "vaccination चाहिए?",
+      "कब hospital जाऊँ?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "chickenpox",
+    "name": "Chickenpox",
+    "hindi": "चेचक (चिकनपॉक्स)",
+    "category": "Infectious",
+    "whatIsIt": {
+      "en": "Viral infection causing itchy rash and fever.",
+      "hi": "वायरल इन्फेक्शन जिससे खुजली वाले चकत्ते और बुखार होते हैं।"
+    },
+    "causes": [
+      "Varicella-zoster virus"
+    ],
+    "riskFactors": [
+      "Unvaccinated",
+      "Children",
+      "Close contact"
+    ],
+    "symptoms": [
+      "Bukhar",
+      "Khujli wale chakke (rash)",
+      "Thakaan",
+      "Sirdard"
+    ],
+    "warningSigns": [
+      "Breathing difficulty",
+      "High fever",
+      "Confusion"
+    ],
+    "diagnosis": "Clinical (rash pattern).",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Symptomatic relief, antihistamines for itching; antivirals in some cases.",
+    "lifestyle": [
+      "Rest",
+      "Hydration",
+      "Avoid scratching",
+      "Isolation"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Avoid contact with infected"
+    ],
+    "relatedMedicines": [
+      "Paracetamol",
+      "Cetirizine"
+    ],
+    "whenUrgent": "Breathing difficulty or confusion — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "क्या antiviral चाहिए?",
+      "कितने दिन में ठीक होगा?"
+    ],
+    "source": "WHO · MoHFW"
+  },
+  {
+    "slug": "scabies",
+    "name": "Scabies",
+    "hindi": "खुजली (स्केबीज)",
+    "category": "Skin",
+    "whatIsIt": {
+      "en": "Contagious skin infestation by tiny mites causing intense itching.",
+      "hi": "छोटे कीटाणुओं से होने वाला संक्रामक त्वचा रोग जिससे तेज़ खुजली होती है।"
+    },
+    "causes": [
+      "Sarcoptes scabiei mite"
+    ],
+    "riskFactors": [
+      "Close contact",
+      "Crowded living",
+      "Poor hygiene"
+    ],
+    "symptoms": [
+      "Tez khujli (raat ko zyada)",
+      "Rash",
+      "Red burrow lines",
+      "Skin sores"
+    ],
+    "warningSigns": [
+      "Spreading infection",
+      "Severe crusting"
+    ],
+    "diagnosis": "Clinical; skin scraping.",
+    "tests": [
+      "Skin scraping (if needed)"
+    ],
+    "treatmentOverview": "Scabicide creams (permethrin) + treat all family members.",
+    "lifestyle": [
+      "Wash clothes/bedding hot",
+      "Treat all contacts",
+      "Avoid scratching",
+      "Good hygiene"
+    ],
+    "prevention": [
+      "Avoid close contact",
+      "Hygiene",
+      "Treat contacts"
+    ],
+    "relatedMedicines": [],
+    "whenUrgent": "Spreading infection or severe crusting — seek medical attention.",
+    "questionsForDoctor": [
+      "कौनसी cream लगाऊँ?",
+      "पूरा परिवार इलाज करे?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "eczema",
+    "name": "Eczema (Atopic Dermatitis)",
+    "hindi": "एक्जिमा (त्वचा की सूजन)",
+    "category": "Skin",
+    "whatIsIt": {
+      "en": "Chronic skin condition causing dry, itchy, inflamed skin.",
+      "hi": "पुरानी त्वचा स्थिति जिससे सूखी, खुजली वाली, सूजी त्वचा होती है।"
+    },
+    "causes": [
+      "Genetic tendency",
+      "Immune response",
+      "Triggers (soap, allergens, stress)"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Asthma/allergy",
+      "Dry skin"
+    ],
+    "symptoms": [
+      "Khujli",
+      "Sukhi tawacha",
+      "Laal chakke",
+      "Fissures"
+    ],
+    "warningSigns": [
+      "Infected skin",
+      "Severe flare"
+    ],
+    "diagnosis": "Clinical.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Moisturizers + topical steroids as prescribed; avoid triggers.",
+    "lifestyle": [
+      "Regular moisturizing",
+      "Mild soap",
+      "Avoid triggers",
+      "Avoid scratching"
+    ],
+    "prevention": [
+      "Moisturize daily",
+      "Avoid irritants",
+      "Manage stress"
+    ],
+    "relatedMedicines": [
+      "Cetirizine"
+    ],
+    "whenUrgent": "Signs of skin infection — seek medical attention.",
+    "questionsForDoctor": [
+      "कौनसी cream लगाऊँ?",
+      "ट्रिगर क्या हैं?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "piles",
+    "name": "Piles (Hemorrhoids)",
+    "hindi": "बवासीर (पाइल्स)",
+    "category": "Digestive",
+    "whatIsIt": {
+      "en": "Swollen veins in the lower rectum/anus causing pain and bleeding.",
+      "hi": "गुदा के निचले हिस्से की सूजी नसें जिससे दर्द और खून आता है।"
+    },
+    "causes": [
+      "Chronic constipation",
+      "Straining",
+      "Pregnancy",
+      "Low fiber",
+      "Long sitting"
+    ],
+    "riskFactors": [
+      "Constipation",
+      "Pregnancy",
+      "Obesity",
+      "Sedentary"
+    ],
+    "symptoms": [
+      "Mal mein khoon",
+      "Guda mein dard",
+      "Khujli",
+      "Soojan"
+    ],
+    "warningSigns": [
+      "Heavy bleeding",
+      "Severe pain",
+      "Lump that won't reduce"
+    ],
+    "diagnosis": "Clinical exam.",
+    "tests": [
+      "Clinical diagnosis",
+      "Hemoglobin (if bleeding)"
+    ],
+    "treatmentOverview": "Fiber, sitz bath, creams; surgery in severe cases.",
+    "lifestyle": [
+      "High fiber",
+      "Plenty of water",
+      "Avoid straining",
+      "Regular exercise",
+      "Don't sit long"
+    ],
+    "prevention": [
+      "Fiber-rich diet",
+      "Hydration",
+      "Active lifestyle"
+    ],
+    "relatedMedicines": [],
+    "whenUrgent": "Heavy bleeding or severe pain — seek medical attention.",
+    "questionsForDoctor": [
+      "क्या surgery चाहिए?",
+      "खानपान कैसे बदलूँ?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "ibs",
+    "name": "Irritable Bowel Syndrome (IBS)",
+    "hindi": "आंतों की समस्या (IBS)",
+    "category": "Digestive",
+    "whatIsIt": {
+      "en": "Digestive disorder causing abdominal pain, bloating, and bowel changes.",
+      "hi": "पाचन विकार जिससे पेट दर्द, फूलना और मल त्याग में बदलाव होता है।"
+    },
+    "causes": [
+      "Gut-brain interaction",
+      "Food sensitivities",
+      "Stress",
+      "Gut bacteria imbalance"
+    ],
+    "riskFactors": [
+      "Women",
+      "Stress",
+      "Food triggers",
+      "Anxiety"
+    ],
+    "symptoms": [
+      "Pet dard",
+      "Gas/फूलना",
+      "Dast ya kabz",
+      "Mucus in stool"
+    ],
+    "warningSigns": [
+      "Blood in stool",
+      "Weight loss",
+      "Night symptoms"
+    ],
+    "diagnosis": "Clinical (Rome criteria); rule out other causes.",
+    "tests": [
+      "Clinical diagnosis",
+      "Rule out others"
+    ],
+    "treatmentOverview": "Diet modification + antispasmodics + stress management.",
+    "lifestyle": [
+      "Identify food triggers",
+      "Stress management",
+      "Regular meals",
+      "Fiber balance"
+    ],
+    "prevention": [
+      "Manage stress",
+      "Healthy diet",
+      "Regular routine"
+    ],
+    "relatedMedicines": [
+      "Dicyclomine"
+    ],
+    "whenUrgent": "Blood in stool or weight loss — seek medical attention.",
+    "questionsForDoctor": [
+      "कौनसे foods बचें?",
+      "क्या IBS है?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "appendicitis",
+    "name": "Appendicitis",
+    "hindi": "अपेंडिसाइटिस",
+    "category": "Digestive / Surgical",
+    "whatIsIt": {
+      "en": "Inflammation of the appendix causing severe abdominal pain.",
+      "hi": "अपेंडिक्स की सूजन जिससे गंभीर पेट दर्द होता है।"
+    },
+    "causes": [
+      "Blockage of appendix",
+      "Infection"
+    ],
+    "riskFactors": [
+      "Young age",
+      "Family history"
+    ],
+    "symptoms": [
+      "Pet ke daaye niche dard",
+      "Bukhar",
+      "Ulti",
+      "Bhookh kam"
+    ],
+    "warningSigns": [
+      "Severe worsening pain",
+      "High fever",
+      "Abdomen rigid"
+    ],
+    "diagnosis": "Clinical + ultrasound.",
+    "tests": [
+      "Ultrasound",
+      "WBC Count",
+      "CRP"
+    ],
+    "treatmentOverview": "Surgery (appendectomy) — usually emergency.",
+    "lifestyle": [
+      "Seek prompt care",
+      "Don't delay if pain worsens"
+    ],
+    "prevention": [
+      "No specific prevention; high-fiber diet may help"
+    ],
+    "relatedMedicines": [],
+    "whenUrgent": "Severe worsening pain or high fever — seek URGENT medical attention immediately.",
+    "questionsForDoctor": [
+      "क्या surgery चाहिए?",
+      "कितनी जल्दी?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "depression",
+    "name": "Depression",
+    "hindi": "अवसाद (डिप्रेशन)",
+    "category": "Mental Health",
+    "whatIsIt": {
+      "en": "Mood disorder causing persistent sadness and loss of interest.",
+      "hi": "मूड विकार जिससे लगातार उदासी और रुचि में कमी होती है।"
+    },
+    "causes": [
+      "Brain chemistry",
+      "Genetic",
+      "Stress/life events",
+      "Hormonal"
+    ],
+    "riskFactors": [
+      "Family history",
+      "Stress",
+      "Chronic illness",
+      "Trauma"
+    ],
+    "symptoms": [
+      "Udaasi",
+      "Ruchi kam",
+      "Neend badalna",
+      "Thakaan",
+      "Nirashta"
+    ],
+    "warningSigns": [
+      "Suicidal thoughts",
+      "Self-harm",
+      "Severe withdrawal"
+    ],
+    "diagnosis": "Clinical assessment by mental health professional.",
+    "tests": [
+      "Clinical assessment",
+      "TSH (rule out thyroid)"
+    ],
+    "treatmentOverview": "Therapy + medicines (antidepressants) as prescribed.",
+    "lifestyle": [
+      "Regular exercise",
+      "Sleep routine",
+      "Social support",
+      "Stress management",
+      "Avoid alcohol"
+    ],
+    "prevention": [
+      "Stress management",
+      "Social connection",
+      "Early help-seeking"
+    ],
+    "relatedMedicines": [],
+    "whenUrgent": "Suicidal thoughts — seek URGENT help immediately.",
+    "questionsForDoctor": [
+      "क्या दवा चाहिए?",
+      "therapy कैसे मिलेगी?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "anxiety",
+    "name": "Anxiety Disorder",
+    "hindi": "चिंता विकार (एंग्जायटी)",
+    "category": "Mental Health",
+    "whatIsIt": {
+      "en": "Excessive worry and fear affecting daily life.",
+      "hi": "अत्यधिक चिंता और डर जो दिनचर्या को प्रभावित करता है।"
+    },
+    "causes": [
+      "Genetic",
+      "Stress",
+      "Brain chemistry",
+      "Trauma"
+    ],
+    "riskFactors": [
+      "Stress",
+      "Family history",
+      "Personality",
+      "Medical conditions"
+    ],
+    "symptoms": [
+      "Bechaini",
+      "Dharkan tez",
+      "Paseena",
+      "Neend na aana",
+      "Chinta zyada"
+    ],
+    "warningSigns": [
+      "Panic attacks",
+      "Avoidance of daily life"
+    ],
+    "diagnosis": "Clinical assessment.",
+    "tests": [
+      "Clinical assessment",
+      "TSH (rule out thyroid)"
+    ],
+    "treatmentOverview": "Therapy (CBT) + medicines as prescribed.",
+    "lifestyle": [
+      "Deep breathing",
+      "Exercise",
+      "Sleep",
+      "Limit caffeine",
+      "Mindfulness"
+    ],
+    "prevention": [
+      "Stress management",
+      "Healthy routine",
+      "Early help"
+    ],
+    "relatedMedicines": [
+      "Propranolol"
+    ],
+    "whenUrgent": "Severe panic or suicidal thoughts — seek urgent help.",
+    "questionsForDoctor": [
+      "क्या दवा चाहिए?",
+      "CBT कैसे मिलेगी?"
+    ],
+    "source": "WHO · ICMR"
+  },
+  {
+    "slug": "conjunctivitis-viral",
+    "name": "Viral Conjunctivitis",
+    "hindi": "वायरल आँख आना",
+    "category": "Eye",
+    "whatIsIt": {
+      "en": "Viral infection of eye membrane causing redness and watering.",
+      "hi": "आँख की झिल्ली का वायरल इन्फेक्शन जिससे लालिमा और पानी आता है।"
+    },
+    "causes": [
+      "Adenovirus"
+    ],
+    "riskFactors": [
+      "Close contact",
+      "Poor hygiene"
+    ],
+    "symptoms": [
+      "Aankh laal",
+      "Pani aana",
+      "Khujli",
+      "Chubhan"
+    ],
+    "warningSigns": [
+      "Vision loss",
+      "Severe pain"
+    ],
+    "diagnosis": "Clinical.",
+    "tests": [
+      "Clinical diagnosis"
+    ],
+    "treatmentOverview": "Usually self-limiting; lubricants + hygiene.",
+    "lifestyle": [
+      "Hand hygiene",
+      "Don't touch eyes",
+      "Cold compress",
+      "Don't share towels"
+    ],
+    "prevention": [
+      "Hand washing",
+      "Avoid sharing",
+      "Don't rub eyes"
+    ],
+    "relatedMedicines": [],
+    "whenUrgent": "Vision loss or severe pain — seek urgent medical attention.",
+    "questionsForDoctor": [
+      "कितने दिन रहेगा?",
+      "दूसरों को फैलने से कैसे बचाऊँ?"
+    ],
+    "source": "WHO · ICMR"
+  }
+]

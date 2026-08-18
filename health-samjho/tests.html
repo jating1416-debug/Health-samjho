@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Report Samjho — Blood Report Decoder</title>
+<meta name="description" content="Understand your blood test report in simple English and Hindi. Enter your value and understand what it means. Reviewed by a Registered Pharmacist.">
+<meta name="robots" content="index, follow">
+<style>
+  :root{
+    --blue:#0e7490; --blue-dark:#155e75; --teal:#14b8a6;
+    --bg:#f8fafc; --card:#ffffff; --border:#e2e8f0;
+    --txt:#0f172a; --muted:#64748b; --soft:#f1f5f9;
+    --green:#16a34a; --green-bg:#f0fdf4;
+    --yellow:#ca8a04; --yellow-bg:#fefce8;
+    --red:#dc2626; --red-bg:#fef2f2;
+    --shadow:0 1px 3px rgba(15,23,42,.08), 0 8px 24px rgba(15,23,42,.06);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--txt); line-height:1.6; -webkit-font-smoothing:antialiased;}
+  a{color:var(--blue); text-decoration:none; cursor:pointer;}
+  button{font-family:inherit;}
+
+  .trustbar{background:var(--blue-dark); color:#e0f2fe; font-size:13px; text-align:center; padding:7px 14px;}
+  .trustbar b{color:#fff;}
+
+  header{background:#fff; border-bottom:1px solid var(--border); position:sticky; top:0; z-index:50;}
+  .nav{max-width:1080px; margin:0 auto; padding:12px 16px; display:flex; align-items:center; gap:12px;}
+  .logo{display:flex; align-items:center; gap:9px; font-weight:800; font-size:18px; color:var(--blue-dark); cursor:pointer;}
+  .logo .mark{width:32px; height:32px; border-radius:9px; background:linear-gradient(135deg,var(--teal),var(--blue)); display:flex; align-items:center; justify-content:center; color:#fff; font-size:17px;}
+
+  main{max-width:1080px; margin:0 auto; padding:0 16px 60px;}
+
+  .hero{text-align:center; padding:34px 0 20px;}
+  .hero h1{font-size:clamp(24px,4.5vw,34px); line-height:1.2; font-weight:800; letter-spacing:-.5px;}
+  .hero h1 span{color:var(--blue);}
+  .hero p{color:var(--muted); margin-top:10px; font-size:15px;}
+
+  .decoder{max-width:720px; margin:20px auto; background:var(--card); border:1px solid var(--border); border-radius:18px; padding:22px; box-shadow:var(--shadow);}
+  .field{display:flex; flex-direction:column; gap:8px; margin-bottom:14px;}
+  .field label{font-size:13px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.4px;}
+  .field select, .field input{padding:13px 14px; font-size:16px; border-radius:12px; border:2px solid var(--border); background:#fff; color:var(--txt); outline:none;}
+  .field select:focus, .field input:focus{border-color:var(--blue);}
+  .checkbtn{width:100%; padding:15px; font-size:16px; font-weight:800; border:none; border-radius:12px; cursor:pointer; background:linear-gradient(135deg,var(--teal),var(--blue)); color:#fff; transition:opacity .2s;}
+  .checkbtn:hover{opacity:.9;}
+
+  .result{display:none; margin-top:20px; border-top:1px solid var(--border); padding-top:18px;}
+  .rrow{display:flex; justify-content:space-between; padding:11px 0; border-bottom:1px solid var(--border); font-size:14.5px;}
+  .rrow:last-child{border:none;}
+  .rrow .lbl{color:var(--muted);}
+  .rrow .val{font-weight:800;}
+  .status{display:inline-flex; align-items:center; gap:7px; padding:6px 16px; border-radius:999px; font-size:15px; font-weight:800;}
+  .status.low{background:var(--red-bg); color:var(--red);}
+  .status.high{background:var(--yellow-bg); color:#a16207;}
+  .status.within{background:var(--green-bg); color:var(--green);}
+
+  .explain{background:var(--soft); border-radius:12px; padding:16px; margin-top:14px; font-size:14.5px;}
+  .explain b{color:var(--blue-dark);}
+  .explain .hi{display:block; color:var(--muted); font-size:13.5px; margin-top:6px;}
+  .caveat{font-size:12px; color:var(--muted); margin-top:12px; font-style:italic;}
+
+  .sechead{display:flex; align-items:center; justify-content:space-between; margin:30px 0 12px;}
+  .sechead h2{font-size:19px; font-weight:800;}
+  .searchwrap{max-width:620px; margin:0 auto 8px; position:relative;}
+  .searchbox{width:100%; padding:14px 16px 14px 44px; font-size:15px; border-radius:12px; border:2px solid var(--border); background:#fff; color:var(--txt); outline:none;}
+  .searchbox:focus{border-color:var(--blue);}
+  .searchwrap .ic{position:absolute; left:15px; top:50%; transform:translateY(-50%); font-size:17px; color:var(--muted);}
+
+  .testgrid{display:grid; grid-template-columns:repeat(4,1fr); gap:12px;}
+  @media(max-width:680px){.testgrid{grid-template-columns:repeat(2,1fr);}}
+  .testcard{background:var(--card); border:1px solid var(--border); border-radius:13px; padding:14px; cursor:pointer; transition:border .2s, box-shadow .2s;}
+  .testcard:hover{border-color:var(--blue); box-shadow:var(--shadow);}
+  .testcard .nm{font-weight:700; font-size:13.5px;}
+  .testcard .ct{font-size:11px; color:var(--muted); margin-top:4px;}
+
+  .catfilters{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px;}
+  .cfilter{background:var(--card); border:1px solid var(--border); border-radius:999px; padding:7px 14px; font-size:12.5px; font-weight:600; color:var(--muted); cursor:pointer;}
+  .cfilter.active{background:var(--blue); color:#fff; border-color:var(--blue);}
+
+  .detailcard{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:18px; margin-top:14px;}
+  .detailcard h3{font-size:14px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); margin-bottom:10px; font-weight:700;}
+  .detailcard ul{padding-left:20px;}
+  .detailcard li{margin-bottom:5px; font-size:14px;}
+  .hi{display:block; color:var(--muted); font-size:13px; margin-top:2px;}
+  .chips{display:flex; flex-wrap:wrap; gap:7px;}
+  .chip{background:var(--soft); border:1px solid var(--border); border-radius:9px; padding:6px 12px; font-size:12.5px;}
+  .disclaimer{font-size:12px; color:var(--muted); border:1px dashed var(--border); border-radius:11px; padding:13px 15px; margin-top:14px; line-height:1.6;}
+
+  .notfound{text-align:center; padding:40px 16px; color:var(--muted);}
+  .notfound .big{font-size:45px;}
+</style>
+</head>
+<body>
+
+<div class="trustbar">🧪 Content reviewed by a <b>Registered Pharmacist</b> · For education only — not a diagnosis</div>
+
+<header>
+  <nav class="nav">
+    <div class="logo" onclick="goHome()"><span class="mark">✚</span> Report Samjho</div>
+  </nav>
+</header>
+
+<main>
+  <div id="home">
+    <div class="hero">
+      <h1>Understand your <span>blood report</span> in simple words</h1>
+      <p>Apni test value daalo aur jano kya matlab hai — high, low ya normal.</p>
+    </div>
+
+    <!-- VALUE DECODER -->
+    <div class="decoder">
+      <div class="field">
+        <label>Select test</label>
+        <select id="testSelect" onchange="updateUnit()"></select>
+      </div>
+      <div class="field">
+        <label>Your value</label>
+        <input id="valueInput" type="number" step="any" placeholder="e.g. 9.8" oninput="hideResult()">
+      </div>
+      <button class="checkbtn" onclick="checkValue()">Check my result →</button>
+
+      <div class="result" id="resultBox"></div>
+    </div>
+
+    <!-- ALL TESTS -->
+    <div class="sechead"><h2>All Tests</h2></div>
+    <div class="searchwrap" style="margin-bottom:14px;">
+      <span class="ic">🔍</span>
+      <input class="searchbox" id="search" type="text" placeholder="Search test... e.g. Hb, TSH, triglyceride" oninput="renderTests()">
+    </div>
+    <div class="catfilters" id="catFilters"></div>
+    <div class="testgrid" id="testList"></div>
+  </div>
+
+  <!-- TEST DETAIL -->
+  <div id="detail" style="display:none;"></div>
+</main>
+
+<script>
+let DATA = __DATA__;
+let activeCat = 'All';
+
+function uniqueCats(){
+  const cats = [...new Set(DATA.map(t => t.category))];
+  return ['All', ...cats];
+}
+
+function renderCatFilters(){
+  const box = document.getElementById('catFilters');
+  box.innerHTML = uniqueCats().map(c =>
+    '<div class="cfilter'+(c===activeCat?' active':'')+'" onclick="setCat(\''+c+'\')">'+c+'</div>'
+  ).join('');
+}
+
+function setCat(c){ activeCat = c; renderCatFilters(); renderTests(); }
+
+function renderTests(){
+  const q = (document.getElementById('search').value||'').toLowerCase().trim();
+  const list = document.getElementById('testList');
+  let filtered = DATA;
+  if(activeCat !== 'All') filtered = filtered.filter(t => t.category === activeCat);
+  if(q) filtered = filtered.filter(t => (t.name + ' ' + t.category + ' ' + t.slug).toLowerCase().includes(q));
+
+  if(!filtered.length){
+    list.innerHTML = '<div class="notfound" style="grid-column:1/-1"><div class="big">🔍</div><p>Kuch nahi mila.</p></div>';
+    return;
+  }
+  list.innerHTML = filtered.map(t =>
+    '<div class="testcard" onclick="openTest(\''+t.slug+'\')"><div class="nm">'+t.name+'</div><div class="ct">'+t.category+'</div></div>'
+  ).join('');
+}
+
+function updateUnit(){
+  const sel = document.getElementById('testSelect');
+  const t = DATA.find(x => x.slug === sel.value);
+  document.getElementById('valueInput').placeholder = 'e.g. value in ' + (t ? t.unit : '');
+  hideResult();
+}
+
+function hideResult(){ document.getElementById('resultBox').style.display = 'none'; }
+
+function checkValue(){
+  const slug = document.getElementById('testSelect').value;
+  const val = parseFloat(document.getElementById('valueInput').value);
+  const t = DATA.find(x => x.slug === slug);
+  const box = document.getElementById('resultBox');
+  if(!t || isNaN(val)){
+    box.style.display = 'block';
+    box.innerHTML = '<p style="color:var(--red);font-size:14px;">Kripya sahi value daalein (number).</p>';
+    return;
+  }
+  const mn = t.normalMin, mx = t.normalMax;
+  let state = 'within';
+  if(mn !== null && val < mn) state = 'low';
+  else if(mx !== null && val > mx) state = 'high';
+
+  const statusMap = {
+    low: { label: '● Low (below range)', cls: 'low' },
+    within: { label: '● Within range', cls: 'within' },
+    high: { label: '● High (above range)', cls: 'high' }
+  };
+  const st = statusMap[state];
+  const interp = t.interpretation[state === 'low' ? 'low' : (state === 'high' ? 'high' : 'within')];
+
+  let rangeStr = '';
+  const ri = t.referenceInterval;
+  if(ri){
+    const parts = [];
+    if(ri.male) parts.push('Male: '+ri.male);
+    if(ri.female) parts.push('Female: '+ri.female);
+    if(ri.child) parts.push('Child: '+ri.child);
+    if(ri.general) parts.push('General: '+ri.general);
+    if(ri.desirable) parts.push('Desirable: '+ri.desirable);
+    if(ri.normal) parts.push('Normal: '+ri.normal);
+    if(ri.optimal) parts.push('Optimal: '+ri.optimal);
+    rangeStr = parts.join(' · ') || 'See lab report';
+  }
+
+  box.style.display = 'block';
+  box.innerHTML =
+    '<div class="rrow"><span class="lbl">Your result</span><span class="val">'+val+' '+t.unit+'</span></div>' +
+    '<div class="rrow"><span class="lbl">Reference range</span><span class="val">'+rangeStr+'</span></div>' +
+    '<div class="rrow"><span class="lbl">Status</span><span class="status '+st.cls+'">'+st.label+'</span></div>' +
+    '<div class="explain"><b>What this may mean:</b> '+interp.en+'<span class="hi">'+interp.hi+'</span></div>' +
+    '<div class="explain" style="background:var(--green-bg);"><b>क्या करें:</b> Discuss this result with your doctor. A single value does not confirm any condition.<span class="hi">इस परिणाम पर डॉक्टर से चर्चा करें। एक अकेला मान किसी बीमारी की पुष्टि नहीं करता।</span></div>' +
+    '<p class="caveat">'+(ri && ri.caveat ? ri.caveat : 'Reference range lab ke hisaab se vary karta hai.')+'</p>';
+}
+
+function openTest(slug){
+  const t = DATA.find(x => x.slug === slug);
+  if(!t) return;
+  document.getElementById('home').style.display = 'none';
+  const d = document.getElementById('detail');
+  d.style.display = 'block';
+
+  const ri = t.referenceInterval;
+  let riRows = '';
+  if(ri){
+    const keys = [['male','Male'],['female','Female'],['child','Child'],['general','General'],['desirable','Desirable'],['normal','Normal'],['optimal','Optimal'],['near_optimal','Near optimal'],['borderline','Borderline'],['high','High'],['very_high','Very high'],['deficient','Deficient'],['insufficient','Insufficient'],['sufficient','Sufficient'],['prediabetes','Prediabetes'],['diabetes','Diabetes'],['impaired','Impaired'],['low_risk','Low risk'],['average','Average'],['high_risk','High risk'],['mild_decrease','Mild decrease'],['moderate','Moderate'],['severe','Severe']];
+    riRows = keys.filter(k => ri[k[0]]).map(k => '<div class="rrow"><span class="lbl">'+k[1]+'</span><span class="val">'+ri[k[0]]+'</span></div>').join('');
+  }
+
+  const interp = t.interpretation;
+  const related = (t.relatedTests||[]).map(r => '<span class="chip">'+r+'</span>').join('');
+  const questions = (t.questionsForDoctor||[]).map(q => '<li>'+q+'</li>').join('');
+
+  d.innerHTML =
+    '<div style="display:inline-flex;align-items:center;gap:6px;color:var(--blue);font-weight:600;font-size:14px;margin:18px 0 12px;cursor:pointer;" onclick="goHome()">← Back to all tests</div>' +
+    '<div class="detailcard" style="box-shadow:var(--shadow);">' +
+      '<div style="font-size:24px;font-weight:800;">'+t.name+'</div>' +
+      '<div style="color:var(--blue);font-weight:700;font-size:14px;margin-top:3px;">'+t.category+' · Unit: '+t.unit+'</div>' +
+      '<div style="margin-top:10px;"><span class="status within" style="font-size:12px;">✅ Reviewed by Pharmacist</span></div>' +
+    '</div>' +
+    '<div class="detailcard"><h3>🧪 What is it?</h3><p style="font-size:14.5px;">'+t.whatIsIt.en+'<span class="hi">'+t.whatIsIt.hi+'</span></p></div>' +
+    '<div class="detailcard"><h3>🎯 Why is it tested?</h3><ul>'+(t.whyTested||[]).map(w=>'<li>'+w+'</li>').join('')+'</ul></div>' +
+    '<div class="detailcard"><h3>📏 Reference interval</h3>'+(riRows||'<p>Lab report dekhein</p>')+(ri && ri.caveat ? '<p class="caveat">'+ri.caveat+'</p>':'')+'</div>' +
+    '<div class="detailcard"><h3>🔴 Low result — kya matlab?</h3><p style="font-size:14px;">'+interp.low.en+'<span class="hi">'+interp.low.hi+'</span></p></div>' +
+    '<div class="detailcard"><h3>🟢 Within range</h3><p style="font-size:14px;">'+interp.within.en+'<span class="hi">'+interp.within.hi+'</span></p></div>' +
+    '<div class="detailcard"><h3>🔴 High result — kya matlab?</h3><p style="font-size:14px;">'+interp.high.en+'<span class="hi">'+interp.high.hi+'</span></p></div>' +
+    '<div class="detailcard"><h3>🔎 Related tests</h3><div class="chips">'+related+'</div></div>' +
+    '<div class="detailcard"><h3>👨‍⚕️ Questions to ask your doctor</h3><ul>'+questions+'</ul><p style="font-size:12.5px;color:var(--muted);margin-top:6px;">(Ye sawaal hain — diagnosis nahi.)</p></div>' +
+    '<div class="detailcard"><h3>📚 Source</h3><p style="font-size:13px;color:var(--muted);"><b>'+t.source+'</b> · Reviewed by Pharmacist</p></div>' +
+    '<div class="disclaimer">⚠️ <b>Disclaimer:</b> This information is for education only. It is not a diagnosis or medical advice. Always consult your doctor for interpretation of your results.</div>';
+  window.scrollTo(0,0);
+}
+
+function goHome(){
+  document.getElementById('home').style.display = 'block';
+  document.getElementById('detail').style.display = 'none';
+  window.scrollTo(0,0);
+}
+
+// init
+(function init(){
+  const sel = document.getElementById('testSelect');
+  sel.innerHTML = DATA.map(t => '<option value="'+t.slug+'">'+t.name+' ('+t.unit+')</option>').join('');
+  updateUnit();
+  renderCatFilters();
+  renderTests();
+})();
+</script>
+</body>
+</html>

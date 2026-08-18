@@ -1,0 +1,1691 @@
+[
+  {
+    "slug": "spinach",
+    "name": "Spinach (Palak)",
+    "hindi": "पालक",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 23,
+      "protein": 2.9,
+      "carbs": 3.6,
+      "fat": 0.4,
+      "fiber": 2.2,
+      "iron": 2.7,
+      "calcium": 99,
+      "vitamin_c": 28,
+      "vitamin_a": 469,
+      "folate": 194
+    },
+    "richIn": [
+      "Iron",
+      "Vitamin A",
+      "Folate",
+      "Calcium"
+    ],
+    "goodFor": [
+      "Anemia (iron)",
+      "Eye health",
+      "Bone health"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "masoor-dal",
+    "name": "Red Lentils (Masoor Dal)",
+    "hindi": "मसूर दाल",
+    "category": "Pulses",
+    "per100g": {
+      "calories": 116,
+      "protein": 9,
+      "carbs": 20,
+      "fat": 0.4,
+      "fiber": 8,
+      "iron": 3.3,
+      "calcium": 19,
+      "folate": 180
+    },
+    "richIn": [
+      "Protein",
+      "Fiber",
+      "Iron",
+      "Folate"
+    ],
+    "goodFor": [
+      "Protein intake",
+      "Anemia",
+      "Digestion"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "chickpeas",
+    "name": "Chickpeas (Chana)",
+    "hindi": "चना",
+    "category": "Pulses",
+    "per100g": {
+      "calories": 164,
+      "protein": 9,
+      "carbs": 27,
+      "fat": 2.6,
+      "fiber": 8,
+      "iron": 2.9,
+      "calcium": 49,
+      "folate": 172
+    },
+    "richIn": [
+      "Protein",
+      "Fiber",
+      "Folate",
+      "Iron"
+    ],
+    "goodFor": [
+      "Protein",
+      "Heart health",
+      "Blood sugar control"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "milk",
+    "name": "Milk",
+    "hindi": "दूध",
+    "category": "Dairy",
+    "per100ml": {
+      "calories": 61,
+      "protein": 3.2,
+      "carbs": 4.8,
+      "fat": 3.3,
+      "calcium": 120,
+      "vitamin_b12": 0.5,
+      "vitamin_d": 1
+    },
+    "richIn": [
+      "Calcium",
+      "Protein",
+      "Vitamin B12"
+    ],
+    "goodFor": [
+      "Bone health",
+      "Muscle",
+      "B12 (non-vegetarian source)"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "curd",
+    "name": "Curd (Dahi)",
+    "hindi": "दही",
+    "category": "Dairy",
+    "per100g": {
+      "calories": 61,
+      "protein": 3.5,
+      "carbs": 4.7,
+      "fat": 3.3,
+      "calcium": 120,
+      "vitamin_b12": 0.5
+    },
+    "richIn": [
+      "Calcium",
+      "Probiotics",
+      "Protein",
+      "Vitamin B12"
+    ],
+    "goodFor": [
+      "Gut health",
+      "Bone health",
+      "Digestion"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "egg",
+    "name": "Egg",
+    "hindi": "अंडा",
+    "category": "Non-vegetarian",
+    "per100g": {
+      "calories": 155,
+      "protein": 13,
+      "carbs": 1.1,
+      "fat": 11,
+      "iron": 1.2,
+      "vitamin_b12": 1.1,
+      "vitamin_d": 2,
+      "calcium": 56
+    },
+    "richIn": [
+      "Protein",
+      "Vitamin B12",
+      "Vitamin D"
+    ],
+    "goodFor": [
+      "Muscle",
+      "B12 (non-veg)",
+      "Brain health"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "chicken",
+    "name": "Chicken",
+    "hindi": "चिकन",
+    "category": "Non-vegetarian",
+    "per100g": {
+      "calories": 165,
+      "protein": 31,
+      "carbs": 0,
+      "fat": 3.6,
+      "iron": 1.0,
+      "vitamin_b12": 0.3,
+      "calcium": 15
+    },
+    "richIn": [
+      "Protein",
+      "Vitamin B12",
+      "Iron"
+    ],
+    "goodFor": [
+      "Muscle building",
+      "B12 (non-veg)",
+      "Iron (mild)"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "banana",
+    "name": "Banana",
+    "hindi": "केला",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 89,
+      "protein": 1.1,
+      "carbs": 23,
+      "fat": 0.3,
+      "fiber": 2.6,
+      "potassium": 358,
+      "vitamin_c": 8.7,
+      "magnesium": 27
+    },
+    "richIn": [
+      "Potassium",
+      "Vitamin C",
+      "Fiber"
+    ],
+    "goodFor": [
+      "Energy",
+      "Digestion",
+      "Blood pressure (potassium)"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "hindi": "सेब",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 52,
+      "protein": 0.3,
+      "carbs": 14,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "vitamin_c": 4.6,
+      "potassium": 107
+    },
+    "richIn": [
+      "Fiber",
+      "Vitamin C",
+      "Antioxidants"
+    ],
+    "goodFor": [
+      "Heart health",
+      "Digestion",
+      "Immunity"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "amla",
+    "name": "Indian Gooseberry (Amla)",
+    "hindi": "आंवला",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 44,
+      "protein": 1,
+      "carbs": 10,
+      "fat": 0.6,
+      "fiber": 4.3,
+      "vitamin_c": 478,
+      "iron": 1.2,
+      "calcium": 25
+    },
+    "richIn": [
+      "Vitamin C",
+      "Antioxidants",
+      "Fiber"
+    ],
+    "goodFor": [
+      "Immunity",
+      "Skin",
+      "Iron absorption"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "oats",
+    "name": "Oats",
+    "hindi": "जई (ओट्स)",
+    "category": "Grains",
+    "per100g": {
+      "calories": 389,
+      "protein": 17,
+      "carbs": 66,
+      "fat": 7,
+      "fiber": 11,
+      "iron": 4.7,
+      "magnesium": 177
+    },
+    "richIn": [
+      "Fiber (beta-glucan)",
+      "Protein",
+      "Iron",
+      "Magnesium"
+    ],
+    "goodFor": [
+      "Cholesterol reduction",
+      "Heart health",
+      "Blood sugar control"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "brown-rice",
+    "name": "Brown Rice",
+    "hindi": "ब्राउन राइस",
+    "category": "Grains",
+    "per100g": {
+      "calories": 111,
+      "protein": 2.6,
+      "carbs": 23,
+      "fat": 0.9,
+      "fiber": 1.8,
+      "magnesium": 43
+    },
+    "richIn": [
+      "Fiber",
+      "Magnesium",
+      "B vitamins"
+    ],
+    "goodFor": [
+      "Blood sugar control",
+      "Digestion",
+      "Fullness"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "almonds",
+    "name": "Almonds (Badam)",
+    "hindi": "बादाम",
+    "category": "Nuts",
+    "per100g": {
+      "calories": 579,
+      "protein": 21,
+      "carbs": 22,
+      "fat": 50,
+      "fiber": 12.5,
+      "calcium": 269,
+      "magnesium": 270,
+      "vitamin_e": 25
+    },
+    "richIn": [
+      "Healthy fats",
+      "Vitamin E",
+      "Calcium",
+      "Magnesium"
+    ],
+    "goodFor": [
+      "Heart health",
+      "Brain",
+      "Bone health"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "walnuts",
+    "name": "Walnuts (Akhrot)",
+    "hindi": "अखरोट",
+    "category": "Nuts",
+    "per100g": {
+      "calories": 654,
+      "protein": 15,
+      "carbs": 14,
+      "fat": 65,
+      "fiber": 6.7,
+      "magnesium": 158,
+      "omega3": 9
+    },
+    "richIn": [
+      "Omega-3",
+      "Healthy fats",
+      "Antioxidants"
+    ],
+    "goodFor": [
+      "Brain",
+      "Heart",
+      "Inflammation"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "fenugreek",
+    "name": "Fenugreek (Methi)",
+    "hindi": "मेथी",
+    "category": "Vegetables / Seeds",
+    "per100g": {
+      "calories": 49,
+      "protein": 4.4,
+      "carbs": 6,
+      "fat": 0.9,
+      "fiber": 1.1,
+      "iron": 1.9,
+      "calcium": 395
+    },
+    "richIn": [
+      "Iron",
+      "Calcium",
+      "Fiber"
+    ],
+    "goodFor": [
+      "Blood sugar control",
+      "Anemia",
+      "Digestion"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "soybean",
+    "name": "Soybean",
+    "hindi": "सोयाबीन",
+    "category": "Pulses",
+    "per100g": {
+      "calories": 173,
+      "protein": 17,
+      "carbs": 10,
+      "fat": 9,
+      "fiber": 6,
+      "iron": 15.7,
+      "calcium": 277
+    },
+    "richIn": [
+      "Protein",
+      "Iron",
+      "Calcium"
+    ],
+    "goodFor": [
+      "Protein (vegetarian)",
+      "Bone health",
+      "Anemia"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "paneer",
+    "name": "Paneer (Cottage Cheese)",
+    "hindi": "पनीर",
+    "category": "Dairy",
+    "per100g": {
+      "calories": 265,
+      "protein": 18,
+      "carbs": 1.2,
+      "fat": 21,
+      "calcium": 208,
+      "vitamin_b12": 0.5
+    },
+    "richIn": [
+      "Protein",
+      "Calcium",
+      "Vitamin B12"
+    ],
+    "goodFor": [
+      "Muscle",
+      "Bone health",
+      "Protein (vegetarian)"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "carrot",
+    "name": "Carrot (Gajar)",
+    "hindi": "गाजर",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 41,
+      "protein": 0.9,
+      "carbs": 10,
+      "fat": 0.2,
+      "fiber": 2.8,
+      "vitamin_a": 835,
+      "potassium": 320
+    },
+    "richIn": [
+      "Vitamin A (beta-carotene)",
+      "Fiber",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Eye health",
+      "Immunity",
+      "Skin"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "orange",
+    "name": "Orange (Santra)",
+    "hindi": "संतरा",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 47,
+      "protein": 0.9,
+      "carbs": 12,
+      "fat": 0.1,
+      "fiber": 2.4,
+      "vitamin_c": 53,
+      "potassium": 181
+    },
+    "richIn": [
+      "Vitamin C",
+      "Fiber",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Immunity",
+      "Iron absorption",
+      "Skin"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "flaxseed",
+    "name": "Flaxseed (Alsi)",
+    "hindi": "अलसी",
+    "category": "Seeds",
+    "per100g": {
+      "calories": 534,
+      "protein": 18,
+      "carbs": 29,
+      "fat": 42,
+      "fiber": 27,
+      "omega3": 22.8,
+      "magnesium": 392
+    },
+    "richIn": [
+      "Omega-3",
+      "Fiber",
+      "Magnesium"
+    ],
+    "goodFor": [
+      "Heart",
+      "Digestion",
+      "Inflammation"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "dates",
+    "name": "Dates (Khajoor)",
+    "hindi": "खजूर",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 277,
+      "protein": 1.8,
+      "carbs": 75,
+      "fat": 0.2,
+      "fiber": 6.7,
+      "iron": 0.9,
+      "potassium": 696
+    },
+    "richIn": [
+      "Natural sugar (energy)",
+      "Fiber",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Energy",
+      "Digestion",
+      "Natural sweetener"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "yogurt",
+    "name": "Greek Yogurt",
+    "hindi": "गाढ़ा दही",
+    "category": "Dairy",
+    "per100g": {
+      "calories": 59,
+      "protein": 10,
+      "carbs": 3.6,
+      "fat": 0.4,
+      "calcium": 110,
+      "vitamin_b12": 0.7
+    },
+    "richIn": [
+      "Protein",
+      "Calcium",
+      "Probiotics",
+      "Vitamin B12"
+    ],
+    "goodFor": [
+      "Muscle",
+      "Gut health",
+      "Bone health"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "mung-dal",
+    "name": "Green Gram (Moong Dal)",
+    "hindi": "मूंग दाल",
+    "category": "Pulses",
+    "per100g": {
+      "calories": 334,
+      "protein": 24,
+      "carbs": 59,
+      "fat": 1.2,
+      "fiber": 16,
+      "iron": 6.7,
+      "calcium": 75
+    },
+    "richIn": [
+      "Protein",
+      "Fiber",
+      "Iron"
+    ],
+    "goodFor": [
+      "Protein (vegetarian)",
+      "Digestion",
+      "Anemia"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "toor-dal",
+    "name": "Pigeon Pea (Toor Dal)",
+    "hindi": "तूर दाल",
+    "category": "Pulses",
+    "per100g": {
+      "calories": 335,
+      "protein": 22,
+      "carbs": 57,
+      "fat": 1.7,
+      "fiber": 15,
+      "iron": 5.2,
+      "calcium": 130
+    },
+    "richIn": [
+      "Protein",
+      "Fiber",
+      "Iron"
+    ],
+    "goodFor": [
+      "Protein",
+      "Digestion",
+      "Anemia"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "rajma",
+    "name": "Kidney Beans (Rajma)",
+    "hindi": "राजमा",
+    "category": "Pulses",
+    "per100g": {
+      "calories": 333,
+      "protein": 24,
+      "carbs": 60,
+      "fat": 0.8,
+      "fiber": 25,
+      "iron": 8.2,
+      "calcium": 143,
+      "folate": 394
+    },
+    "richIn": [
+      "Protein",
+      "Fiber",
+      "Iron",
+      "Folate"
+    ],
+    "goodFor": [
+      "Protein",
+      "Heart",
+      "Blood sugar"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "lobia",
+    "name": "Black-eyed Peas (Lobia)",
+    "hindi": "लोबिया",
+    "category": "Pulses",
+    "per100g": {
+      "calories": 336,
+      "protein": 23,
+      "carbs": 60,
+      "fat": 1.3,
+      "fiber": 11,
+      "iron": 8.3,
+      "calcium": 110,
+      "folate": 633
+    },
+    "richIn": [
+      "Protein",
+      "Folate",
+      "Iron"
+    ],
+    "goodFor": [
+      "Protein",
+      "Pregnancy (folate)",
+      "Anemia"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "peanuts",
+    "name": "Peanuts (Moongphali)",
+    "hindi": "मूंगफली",
+    "category": "Nuts",
+    "per100g": {
+      "calories": 567,
+      "protein": 26,
+      "carbs": 16,
+      "fat": 49,
+      "fiber": 9,
+      "iron": 4.6,
+      "magnesium": 168,
+      "vitamin_e": 8.3
+    },
+    "richIn": [
+      "Protein",
+      "Healthy fats",
+      "Vitamin E"
+    ],
+    "goodFor": [
+      "Protein",
+      "Heart",
+      "Energy"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "cashew",
+    "name": "Cashew (Kaju)",
+    "hindi": "काजू",
+    "category": "Nuts",
+    "per100g": {
+      "calories": 553,
+      "protein": 18,
+      "carbs": 30,
+      "fat": 44,
+      "fiber": 3.3,
+      "magnesium": 292,
+      "iron": 6.7
+    },
+    "richIn": [
+      "Healthy fats",
+      "Magnesium",
+      "Protein"
+    ],
+    "goodFor": [
+      "Heart",
+      "Bone",
+      "Energy"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "pistachio",
+    "name": "Pistachio (Pista)",
+    "hindi": "पिस्ता",
+    "category": "Nuts",
+    "per100g": {
+      "calories": 560,
+      "protein": 20,
+      "carbs": 27,
+      "fat": 45,
+      "fiber": 10,
+      "potassium": 1025,
+      "vitamin_b6": 1.7
+    },
+    "richIn": [
+      "Protein",
+      "Fiber",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Heart",
+      "Blood pressure",
+      "Digestion"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "chia-seeds",
+    "name": "Chia Seeds",
+    "hindi": "चिया सीड्स",
+    "category": "Seeds",
+    "per100g": {
+      "calories": 486,
+      "protein": 17,
+      "carbs": 42,
+      "fat": 31,
+      "fiber": 34,
+      "calcium": 631,
+      "magnesium": 335,
+      "omega3": 17.8
+    },
+    "richIn": [
+      "Omega-3",
+      "Fiber",
+      "Calcium"
+    ],
+    "goodFor": [
+      "Heart",
+      "Digestion",
+      "Bone"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "pumpkin-seeds",
+    "name": "Pumpkin Seeds",
+    "hindi": "कद्दू के बीज",
+    "category": "Seeds",
+    "per100g": {
+      "calories": 559,
+      "protein": 30,
+      "carbs": 11,
+      "fat": 49,
+      "fiber": 6,
+      "magnesium": 262,
+      "zinc": 7.8,
+      "iron": 8.8
+    },
+    "richIn": [
+      "Protein",
+      "Magnesium",
+      "Zinc",
+      "Iron"
+    ],
+    "goodFor": [
+      "Immunity",
+      "Heart",
+      "Bone"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "sesame",
+    "name": "Sesame Seeds (Til)",
+    "hindi": "तिल",
+    "category": "Seeds",
+    "per100g": {
+      "calories": 573,
+      "protein": 18,
+      "carbs": 23,
+      "fat": 50,
+      "fiber": 12,
+      "calcium": 975,
+      "iron": 14.6,
+      "magnesium": 351
+    },
+    "richIn": [
+      "Calcium",
+      "Iron",
+      "Magnesium"
+    ],
+    "goodFor": [
+      "Bone",
+      "Anemia",
+      "Heart"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "ghee",
+    "name": "Ghee",
+    "hindi": "घी",
+    "category": "Fats",
+    "per100g": {
+      "calories": 900,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100,
+      "vitamin_a": 920,
+      "vitamin_e": 2.8
+    },
+    "richIn": [
+      "Healthy fats",
+      "Vitamin A"
+    ],
+    "goodFor": [
+      "Energy",
+      "Immunity (moderate use)"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "mustard-oil",
+    "name": "Mustard Oil",
+    "hindi": "सरसों का तेल",
+    "category": "Fats",
+    "per100g": {
+      "calories": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100,
+      "omega3": 5.9
+    },
+    "richIn": [
+      "Monounsaturated fats",
+      "Omega-3"
+    ],
+    "goodFor": [
+      "Heart (moderate use)"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "jaggery",
+    "name": "Jaggery (Gud)",
+    "hindi": "गुड़",
+    "category": "Sweeteners",
+    "per100g": {
+      "calories": 383,
+      "protein": 0.4,
+      "carbs": 98,
+      "fat": 0.1,
+      "iron": 11,
+      "calcium": 80,
+      "potassium": 140
+    },
+    "richIn": [
+      "Iron",
+      "Minerals"
+    ],
+    "goodFor": [
+      "Energy",
+      "Iron (small amounts)"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "honey",
+    "name": "Honey",
+    "hindi": "शहद",
+    "category": "Sweeteners",
+    "per100g": {
+      "calories": 304,
+      "protein": 0.3,
+      "carbs": 82,
+      "fat": 0,
+      "fiber": 0.2,
+      "potassium": 52
+    },
+    "richIn": [
+      "Natural sugar",
+      "Antioxidants"
+    ],
+    "goodFor": [
+      "Energy",
+      "Sore throat"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "mango",
+    "name": "Mango",
+    "hindi": "आम",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 60,
+      "protein": 0.8,
+      "carbs": 15,
+      "fat": 0.4,
+      "fiber": 1.6,
+      "vitamin_a": 54,
+      "vitamin_c": 36
+    },
+    "richIn": [
+      "Vitamin C",
+      "Vitamin A",
+      "Fiber"
+    ],
+    "goodFor": [
+      "Immunity",
+      "Eye",
+      "Digestion"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "papaya",
+    "name": "Papaya",
+    "hindi": "पपीता",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 43,
+      "protein": 0.5,
+      "carbs": 11,
+      "fat": 0.3,
+      "fiber": 1.7,
+      "vitamin_c": 61,
+      "vitamin_a": 47
+    },
+    "richIn": [
+      "Vitamin C",
+      "Vitamin A",
+      "Fiber"
+    ],
+    "goodFor": [
+      "Digestion",
+      "Immunity",
+      "Skin"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "pomegranate",
+    "name": "Pomegranate (Anar)",
+    "hindi": "अनार",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 83,
+      "protein": 1.7,
+      "carbs": 19,
+      "fat": 1.2,
+      "fiber": 4,
+      "vitamin_c": 10,
+      "iron": 0.3,
+      "potassium": 236
+    },
+    "richIn": [
+      "Antioxidants",
+      "Fiber",
+      "Vitamin C"
+    ],
+    "goodFor": [
+      "Heart",
+      "Immunity",
+      "Anemia support"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "guava",
+    "name": "Guava (Amrud)",
+    "hindi": "अमरूद",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 68,
+      "protein": 2.6,
+      "carbs": 14,
+      "fat": 1,
+      "fiber": 5.4,
+      "vitamin_c": 228,
+      "potassium": 417
+    },
+    "richIn": [
+      "Vitamin C",
+      "Fiber",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Immunity",
+      "Digestion",
+      "Skin"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "watermelon",
+    "name": "Watermelon (Tarbooj)",
+    "hindi": "तरबूज",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 30,
+      "protein": 0.6,
+      "carbs": 8,
+      "fat": 0.2,
+      "fiber": 0.4,
+      "vitamin_c": 8,
+      "potassium": 112,
+      "vitamin_a": 28
+    },
+    "richIn": [
+      "Water",
+      "Vitamin C",
+      "Vitamin A"
+    ],
+    "goodFor": [
+      "Hydration",
+      "Immunity",
+      "Skin"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "muskmelon",
+    "name": "Muskmelon (Kharbooja)",
+    "hindi": "खरबूजा",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 34,
+      "protein": 0.8,
+      "carbs": 8,
+      "fat": 0.2,
+      "fiber": 0.9,
+      "vitamin_a": 169,
+      "vitamin_c": 37
+    },
+    "richIn": [
+      "Vitamin A",
+      "Vitamin C",
+      "Water"
+    ],
+    "goodFor": [
+      "Eye",
+      "Immunity",
+      "Hydration"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "grapes",
+    "name": "Grapes (Angoor)",
+    "hindi": "अंगूर",
+    "category": "Fruits",
+    "per100g": {
+      "calories": 69,
+      "protein": 0.7,
+      "carbs": 18,
+      "fat": 0.2,
+      "fiber": 0.9,
+      "potassium": 191,
+      "vitamin_c": 3.2
+    },
+    "richIn": [
+      "Antioxidants",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Heart",
+      "Hydration"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "coconut",
+    "name": "Coconut (Nariyal)",
+    "hindi": "नारियल",
+    "category": "Nuts / Fruits",
+    "per100g": {
+      "calories": 354,
+      "protein": 3.3,
+      "carbs": 15,
+      "fat": 33,
+      "fiber": 9,
+      "potassium": 356,
+      "iron": 2.4
+    },
+    "richIn": [
+      "Healthy fats",
+      "Fiber",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Energy",
+      "Heart (moderate)"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "cauliflower",
+    "name": "Cauliflower (Phool Gobhi)",
+    "hindi": "फूल गोभी",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 25,
+      "protein": 1.9,
+      "carbs": 5,
+      "fat": 0.3,
+      "fiber": 2,
+      "vitamin_c": 48,
+      "folate": 57
+    },
+    "richIn": [
+      "Vitamin C",
+      "Folate",
+      "Fiber"
+    ],
+    "goodFor": [
+      "Immunity",
+      "Digestion"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "cabbage",
+    "name": "Cabbage (Patta Gobhi)",
+    "hindi": "पत्ता गोभी",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 25,
+      "protein": 1.3,
+      "carbs": 6,
+      "fat": 0.1,
+      "fiber": 2.5,
+      "vitamin_c": 37,
+      "folate": 43
+    },
+    "richIn": [
+      "Vitamin C",
+      "Fiber",
+      "Folate"
+    ],
+    "goodFor": [
+      "Digestion",
+      "Immunity"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "brinjal",
+    "name": "Brinjal (Baingan)",
+    "hindi": "बैंगन",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 25,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 0.2,
+      "fiber": 3,
+      "potassium": 229,
+      "folate": 22
+    },
+    "richIn": [
+      "Fiber",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Digestion",
+      "Heart"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "okra",
+    "name": "Okra (Bhindi)",
+    "hindi": "भिंडी",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 33,
+      "protein": 1.9,
+      "carbs": 7,
+      "fat": 0.2,
+      "fiber": 3.2,
+      "folate": 60,
+      "vitamin_c": 23
+    },
+    "richIn": [
+      "Fiber",
+      "Folate",
+      "Vitamin C"
+    ],
+    "goodFor": [
+      "Digestion",
+      "Blood sugar"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "bitter-gourd",
+    "name": "Bitter Gourd (Karela)",
+    "hindi": "करेला",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 19,
+      "protein": 1,
+      "carbs": 4,
+      "fat": 0.2,
+      "fiber": 2.8,
+      "vitamin_c": 84,
+      "folate": 72
+    },
+    "richIn": [
+      "Vitamin C",
+      "Fiber",
+      "Folate"
+    ],
+    "goodFor": [
+      "Blood sugar",
+      "Immunity",
+      "Digestion"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "bottle-gourd",
+    "name": "Bottle Gourd (Lauki)",
+    "hindi": "लौकी",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 14,
+      "protein": 0.6,
+      "carbs": 3.4,
+      "fat": 0,
+      "fiber": 0.5,
+      "vitamin_c": 10,
+      "potassium": 150
+    },
+    "richIn": [
+      "Water",
+      "Vitamin C",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Hydration",
+      "Digestion",
+      "Weight loss"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "beetroot",
+    "name": "Beetroot (Chukandar)",
+    "hindi": "चुकंदर",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 43,
+      "protein": 1.6,
+      "carbs": 10,
+      "fat": 0.2,
+      "fiber": 2.8,
+      "folate": 109,
+      "iron": 0.8,
+      "potassium": 325
+    },
+    "richIn": [
+      "Folate",
+      "Fiber",
+      "Iron"
+    ],
+    "goodFor": [
+      "Blood",
+      "Liver",
+      "Blood pressure"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "sweet-potato",
+    "name": "Sweet Potato (Shakarkand)",
+    "hindi": "शकरकंद",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 86,
+      "protein": 1.6,
+      "carbs": 20,
+      "fat": 0.1,
+      "fiber": 3,
+      "vitamin_a": 709,
+      "potassium": 337
+    },
+    "richIn": [
+      "Vitamin A",
+      "Fiber",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Eye",
+      "Digestion",
+      "Immunity"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "tomato",
+    "name": "Tomato (Tamatar)",
+    "hindi": "टमाटर",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 18,
+      "protein": 0.9,
+      "carbs": 3.9,
+      "fat": 0.2,
+      "fiber": 1.2,
+      "vitamin_c": 14,
+      "potassium": 237,
+      "lycopene": 2573
+    },
+    "richIn": [
+      "Vitamin C",
+      "Lycopene",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Heart",
+      "Immunity",
+      "Skin"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "onion",
+    "name": "Onion (Pyaz)",
+    "hindi": "प्याज",
+    "category": "Vegetables",
+    "per100g": {
+      "calories": 40,
+      "protein": 1.1,
+      "carbs": 9,
+      "fat": 0.1,
+      "fiber": 1.7,
+      "vitamin_c": 7.4,
+      "folate": 19
+    },
+    "richIn": [
+      "Antioxidants",
+      "Fiber"
+    ],
+    "goodFor": [
+      "Heart",
+      "Immunity"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "garlic",
+    "name": "Garlic (Lahsun)",
+    "hindi": "लहसुन",
+    "category": "Vegetables / Spices",
+    "per100g": {
+      "calories": 149,
+      "protein": 6.4,
+      "carbs": 33,
+      "fat": 0.5,
+      "fiber": 2.1,
+      "vitamin_c": 31,
+      "manganese": 1.7
+    },
+    "richIn": [
+      "Allicin (antioxidant)",
+      "Vitamin C"
+    ],
+    "goodFor": [
+      "Heart",
+      "Immunity",
+      "Blood pressure"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "ginger",
+    "name": "Ginger (Adrak)",
+    "hindi": "अदरक",
+    "category": "Spices",
+    "per100g": {
+      "calories": 80,
+      "protein": 1.8,
+      "carbs": 18,
+      "fat": 0.8,
+      "fiber": 2,
+      "potassium": 415,
+      "magnesium": 43
+    },
+    "richIn": [
+      "Gingerol (antioxidant)",
+      "Potassium"
+    ],
+    "goodFor": [
+      "Nausea",
+      "Digestion",
+      "Immunity"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "turmeric",
+    "name": "Turmeric (Haldi)",
+    "hindi": "हल्दी",
+    "category": "Spices",
+    "per100g": {
+      "calories": 354,
+      "protein": 8,
+      "carbs": 65,
+      "fat": 10,
+      "fiber": 22,
+      "iron": 41.4,
+      "potassium": 2525,
+      "curcumin": 3000
+    },
+    "richIn": [
+      "Curcumin (anti-inflammatory)",
+      "Iron"
+    ],
+    "goodFor": [
+      "Inflammation",
+      "Immunity",
+      "Digestion"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "curry-leaves",
+    "name": "Curry Leaves (Kadi Patta)",
+    "hindi": "कड़ी पत्ता",
+    "category": "Herbs",
+    "per100g": {
+      "calories": 108,
+      "protein": 6,
+      "carbs": 18,
+      "fat": 1,
+      "fiber": 6.4,
+      "calcium": 830,
+      "iron": 0.9,
+      "vitamin_a": 7560
+    },
+    "richIn": [
+      "Calcium",
+      "Iron",
+      "Vitamin A"
+    ],
+    "goodFor": [
+      "Hair",
+      "Bone",
+      "Anemia"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "coriander",
+    "name": "Coriander (Dhaniya)",
+    "hindi": "धनिया",
+    "category": "Herbs",
+    "per100g": {
+      "calories": 23,
+      "protein": 2.1,
+      "carbs": 4,
+      "fat": 0.5,
+      "fiber": 2.8,
+      "vitamin_c": 27,
+      "vitamin_a": 337
+    },
+    "richIn": [
+      "Vitamin C",
+      "Vitamin A",
+      "Antioxidants"
+    ],
+    "goodFor": [
+      "Immunity",
+      "Digestion",
+      "Skin"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "mint",
+    "name": "Mint (Pudina)",
+    "hindi": "पुदीना",
+    "category": "Herbs",
+    "per100g": {
+      "calories": 44,
+      "protein": 3.3,
+      "carbs": 8,
+      "fat": 0.7,
+      "fiber": 6.8,
+      "vitamin_c": 31,
+      "iron": 5.1,
+      "folate": 105
+    },
+    "richIn": [
+      "Iron",
+      "Vitamin C",
+      "Folate"
+    ],
+    "goodFor": [
+      "Digestion",
+      "Anemia",
+      "Immunity"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "buttermilk",
+    "name": "Buttermilk (Chaas)",
+    "hindi": "छाछ",
+    "category": "Dairy",
+    "per100g": {
+      "calories": 40,
+      "protein": 3.3,
+      "carbs": 4.8,
+      "fat": 0.9,
+      "calcium": 116,
+      "vitamin_b12": 0.2
+    },
+    "richIn": [
+      "Calcium",
+      "Probiotics",
+      "Protein"
+    ],
+    "goodFor": [
+      "Gut health",
+      "Digestion",
+      "Bone"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "cheese",
+    "name": "Cheese",
+    "hindi": "चीज़",
+    "category": "Dairy",
+    "per100g": {
+      "calories": 403,
+      "protein": 25,
+      "carbs": 1.3,
+      "fat": 33,
+      "calcium": 721,
+      "vitamin_b12": 0.8
+    },
+    "richIn": [
+      "Calcium",
+      "Protein",
+      "Vitamin B12"
+    ],
+    "goodFor": [
+      "Bone",
+      "Muscle",
+      "B12"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "fish",
+    "name": "Fish (Rohu/Indian carp)",
+    "hindi": "मछली",
+    "category": "Non-vegetarian",
+    "per100g": {
+      "calories": 110,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 3,
+      "iron": 1.5,
+      "vitamin_b12": 2.8,
+      "omega3": 1.2
+    },
+    "richIn": [
+      "Protein",
+      "Omega-3",
+      "Vitamin B12"
+    ],
+    "goodFor": [
+      "Heart",
+      "Brain",
+      "Muscle"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "prawns",
+    "name": "Prawns (Jhinga)",
+    "hindi": "झींगा",
+    "category": "Non-vegetarian",
+    "per100g": {
+      "calories": 99,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 0.3,
+      "iron": 1.8,
+      "vitamin_b12": 1.5,
+      "calcium": 52
+    },
+    "richIn": [
+      "Protein",
+      "Vitamin B12",
+      "Iron"
+    ],
+    "goodFor": [
+      "Muscle",
+      "B12"
+    ],
+    "source": "NIN / IFCT"
+  },
+  {
+    "slug": "mutton",
+    "name": "Mutton (Goat Meat)",
+    "hindi": "मटन",
+    "category": "Non-vegetarian",
+    "per100g": {
+      "calories": 143,
+      "protein": 25,
+      "carbs": 0,
+      "fat": 3,
+      "iron": 3.7,
+      "vitamin_b12": 1.1,
+      "zinc": 4
+    },
+    "richIn": [
+      "Protein",
+      "Iron",
+      "Zinc",
+      "Vitamin B12"
+    ],
+    "goodFor": [
+      "Muscle",
+      "Anemia",
+      "Immunity"
+    ],
+    "source": "NIN / IFCT"
+  }
+]
